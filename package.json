@@ -36,6 +36,7 @@
     "@remix-run/serve": "^1.7.6",
     "autoprefixer": "^10.4.13",
     "concurrently": "^7.6.0",
+    "cssnano": "^5.1.14",
     "eslint": "^8.27.0",
     "netlify-cli": "^2.37.0",
     "postcss": "^8.4.19",
