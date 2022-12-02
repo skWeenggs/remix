@@ -1,10 +1,10 @@
 import {
   Links,  LiveReload, Meta,  Outlet,  Scripts,  ScrollRestoration,} from "@remix-run/react";
 
-import Footer from "./footer/footer";
-import Header from "./header/header";
+import Footer from "./footer/index";
+import Header from "./header/index";
 import Navbar from "./header/navbar";
-import ChatBoot from "./chatbot/ChatBoot";
+import ChatBoot from "./chatbot/index";
 import styles from "./tailwind.css";
 export function links() {
   return [{ rel: "stylesheet", href: styles }];
