@@ -2258,7 +2258,7 @@ var ChatBoot = () => {
 var ChatBoot_default = ChatBoot;
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-UGABCAWA.css";
+var tailwind_default = "/build/_assets/tailwind-IZWP26YK.css";
 
 // app/root.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -2286,6 +2286,13 @@ function App() {
             lineNumber: 23,
             columnNumber: 9
           }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("script", {
+            src: "https://unpkg.com/prop-types/prop-types.min.js"
+          }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 24,
+            columnNumber: 9
+          }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
             href: "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css",
             rel: "stylesheet"
@@ -2308,6 +2315,15 @@ function App() {
           }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 27,
+            columnNumber: 9
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
+            rel: "preconnect",
+            href: "https://fonts.gstatic.com",
+            crossOrigin: true
+          }, void 0, false, {
+            fileName: "app/root.jsx",
+            lineNumber: 30,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
@@ -2392,4 +2408,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-EEKXMNQD.js.map
+//# sourceMappingURL=/build/root-IYZXRAT6.js.map

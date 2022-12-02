@@ -1,6 +1,6 @@
 import {
   Links,  LiveReload, Meta,  Outlet,  Scripts,  ScrollRestoration,} from "@remix-run/react";
-// import 'react-accessible-accordion/dist/fancy-example.css'
+
 import Footer from "./footer/footer";
 import Header from "./header/header";
 import Navbar from "./header/navbar";
@@ -21,13 +21,13 @@ export default function App() {
       <head>
         <Meta />
         <Links />
-        
+        <script src="https://unpkg.com/prop-types/prop-types.min.js"></script>
          <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
         <script src="https://cdn.tailwindcss.com" defer></script>
         <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap" rel="stylesheet"
         />
-        {/* <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin /> */}
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap" rel="stylesheet"
         />
