@@ -5,7 +5,7 @@ import onetwo from '../assets/onetwo.png'
 import tech from '../assets/tech.png';
 import Carousel from 'nuka-carousel/lib/carousel';
 import Slider from '~/ImageViewer';
-
+import ImagePic from '~/ImageViewer';
 import ProgressLine from '../ProgressLine'
 
 {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/imageviewer/1.1.0/viewer.min.js" integrity="sha512-YqQInB+ZZ13UrEkm5rUDHGV9O8llyHZsFHiwhVQHAGMyCaJssf5zBy1GgGuYkZUa7Gd+Nycxs9pt/T80pXj6Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> */}
@@ -130,7 +130,7 @@ return (
 			</section>
 		</div >
 		
-	
+	<ImagePic />
 
 		<div className='bg-[#fff]'>
       <section className='lg:pb-20 lg:max-w-[1140px] block m-auto'>
