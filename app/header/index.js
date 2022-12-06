@@ -28,7 +28,7 @@ const Header =()=> {
   };
 
     return (
-      <div className=' sticky top-0 bg-white drop-shadow shadow-blue-600  z-50' >
+      <div className=' sticky top-0 bg-white drop-shadow shadow-blue-600  z-50 ' >
         <div >
           
         <nav className=" bg-white-800 ">

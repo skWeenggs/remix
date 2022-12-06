@@ -36,7 +36,7 @@ const ProgressLine = ({
   }, [visualParts]);
 
   return (
-    <>
+    <div className="mb-10">
       <div className="text-sm text-gray-500">{label}</div>
       <div
         className="progressVisualFull"
@@ -74,7 +74,7 @@ const ProgressLine = ({
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 

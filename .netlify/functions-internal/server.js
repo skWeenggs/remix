@@ -470,7 +470,7 @@ var import_react4 = require("react"), import_react5 = require("@headlessui/react
     });
   };
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-    className: " sticky top-0 bg-white drop-shadow shadow-blue-600  z-50",
+    className: " sticky top-0 bg-white drop-shadow shadow-blue-600  z-50 ",
     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
       children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("nav", {
         className: " bg-white-800 ",
@@ -1633,7 +1633,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
 }, chatbot_default = ChatBoot;
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-IZWP26YK.css";
+var tailwind_default = "/build/_assets/tailwind-BFXTBKPY.css";
 
 // app/root.jsx
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime");
@@ -1666,7 +1666,7 @@ function App() {
             rel: "stylesheet"
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 25,
+            lineNumber: 26,
             columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("script", {
@@ -1674,7 +1674,7 @@ function App() {
             defer: !0
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 26,
+            lineNumber: 27,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
@@ -1682,7 +1682,7 @@ function App() {
             rel: "stylesheet"
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 27,
+            lineNumber: 28,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
@@ -1691,7 +1691,7 @@ function App() {
             crossOrigin: !0
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 30,
+            lineNumber: 31,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
@@ -1699,7 +1699,7 @@ function App() {
             rel: "stylesheet"
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 31,
+            lineNumber: 32,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
@@ -1707,7 +1707,7 @@ function App() {
             href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 34,
+            lineNumber: 35,
             columnNumber: 9
           }, this)
         ]
@@ -1720,48 +1720,48 @@ function App() {
         children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(navbar_default, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 39,
+            lineNumber: 40,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(header_default, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 40,
+            lineNumber: 41,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(chatbot_default, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 41,
+            lineNumber: 42,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.Outlet, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 42,
+            lineNumber: 43,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.ScrollRestoration, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 43,
+            lineNumber: 44,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.Scripts, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 44,
+            lineNumber: 45,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.LiveReload, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 45,
+            lineNumber: 46,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(footer_default, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 46,
+            lineNumber: 47,
             columnNumber: 9
           }, this)
         ]
       }, void 0, !0, {
         fileName: "app/root.jsx",
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 7
       }, this)
     ]
@@ -1858,22 +1858,22 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
               ]
             }, void 0, !0, {
               fileName: "app/routes/service/index.jsx",
-              lineNumber: 23,
+              lineNumber: 24,
               columnNumber: 58
             }, this))
           }, void 0, !1, {
             fileName: "app/routes/service/index.jsx",
-            lineNumber: 22,
+            lineNumber: 23,
             columnNumber: 23
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/service/index.jsx",
-          lineNumber: 21,
+          lineNumber: 22,
           columnNumber: 21
         }, this)
       }, void 0, !1, {
         fileName: "app/routes/service/index.jsx",
-        lineNumber: 20,
+        lineNumber: 21,
         columnNumber: 18
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -1891,7 +1891,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                     children: props.apptype
                   }, void 0, !1, {
                     fileName: "app/routes/service/index.jsx",
-                    lineNumber: 32,
+                    lineNumber: 33,
                     columnNumber: 24
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
@@ -1899,7 +1899,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                     children: props.servicetype
                   }, void 0, !1, {
                     fileName: "app/routes/service/index.jsx",
-                    lineNumber: 33,
+                    lineNumber: 34,
                     columnNumber: 24
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", {
@@ -1910,7 +1910,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                         children: props.sdesc
                       }, void 0, !1, {
                         fileName: "app/routes/service/index.jsx",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 24
                       }, this),
                       props.data.map((item, index2) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
@@ -1922,7 +1922,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                               children: "\uF087"
                             }, void 0, !1, {
                               fileName: "app/routes/service/index.jsx",
-                              lineNumber: 42,
+                              lineNumber: 43,
                               columnNumber: 31
                             }, this),
                             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -1932,35 +1932,35 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                                 children: item.head
                               }, void 0, !1, {
                                 fileName: "app/routes/service/index.jsx",
-                                lineNumber: 44,
+                                lineNumber: 45,
                                 columnNumber: 35
                               }, this)
                             }, void 0, !1, {
                               fileName: "app/routes/service/index.jsx",
-                              lineNumber: 43,
+                              lineNumber: 44,
                               columnNumber: 33
                             }, this)
                           ]
                         }, void 0, !0, {
                           fileName: "app/routes/service/index.jsx",
-                          lineNumber: 41,
+                          lineNumber: 42,
                           columnNumber: 31
                         }, this)
                       }, void 0, !1, {
                         fileName: "app/routes/service/index.jsx",
-                        lineNumber: 40,
+                        lineNumber: 41,
                         columnNumber: 29
                       }, this))
                     ]
                   }, void 0, !0, {
                     fileName: "app/routes/service/index.jsx",
-                    lineNumber: 34,
+                    lineNumber: 35,
                     columnNumber: 24
                   }, this)
                 ]
               }, void 0, !0, {
                 fileName: "app/routes/service/index.jsx",
-                lineNumber: 31,
+                lineNumber: 32,
                 columnNumber: 23
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -1971,28 +1971,28 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                   alt: "image"
                 }, void 0, !1, {
                   fileName: "app/routes/service/index.jsx",
-                  lineNumber: 55,
+                  lineNumber: 56,
                   columnNumber: 25
                 }, this)
               }, void 0, !1, {
                 fileName: "app/routes/service/index.jsx",
-                lineNumber: 53,
+                lineNumber: 54,
                 columnNumber: 23
               }, this)
             ]
           }, void 0, !0, {
             fileName: "app/routes/service/index.jsx",
-            lineNumber: 30,
+            lineNumber: 31,
             columnNumber: 22
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/service/index.jsx",
-          lineNumber: 29,
+          lineNumber: 30,
           columnNumber: 21
         }, this)
       }, void 0, !1, {
         fileName: "app/routes/service/index.jsx",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 18
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -2010,7 +2010,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                     children: "WHY CHOOSE WEENGGS FOR YOUR"
                   }, void 0, !1, {
                     fileName: "app/routes/service/index.jsx",
-                    lineNumber: 65,
+                    lineNumber: 66,
                     columnNumber: 24
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
@@ -2018,7 +2018,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                     children: props.application
                   }, void 0, !1, {
                     fileName: "app/routes/service/index.jsx",
-                    lineNumber: 66,
+                    lineNumber: 67,
                     columnNumber: 24
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", {
@@ -2030,7 +2030,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                           class: item.logo
                         }, void 0, !1, {
                           fileName: "app/routes/service/index.jsx",
-                          lineNumber: 72,
+                          lineNumber: 73,
                           columnNumber: 29
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -2040,29 +2040,29 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                             children: item.head
                           }, void 0, !1, {
                             fileName: "app/routes/service/index.jsx",
-                            lineNumber: 74,
+                            lineNumber: 75,
                             columnNumber: 29
                           }, this)
                         }, void 0, !1, {
                           fileName: "app/routes/service/index.jsx",
-                          lineNumber: 73,
+                          lineNumber: 74,
                           columnNumber: 29
                         }, this)
                       ]
                     }, index2, !0, {
                       fileName: "app/routes/service/index.jsx",
-                      lineNumber: 71,
+                      lineNumber: 72,
                       columnNumber: 29
                     }, this))
                   }, void 0, !1, {
                     fileName: "app/routes/service/index.jsx",
-                    lineNumber: 67,
+                    lineNumber: 68,
                     columnNumber: 24
                   }, this)
                 ]
               }, void 0, !0, {
                 fileName: "app/routes/service/index.jsx",
-                lineNumber: 64,
+                lineNumber: 65,
                 columnNumber: 23
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -2073,28 +2073,28 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                   alt: "image"
                 }, void 0, !1, {
                   fileName: "app/routes/service/index.jsx",
-                  lineNumber: 84,
+                  lineNumber: 85,
                   columnNumber: 25
                 }, this)
               }, void 0, !1, {
                 fileName: "app/routes/service/index.jsx",
-                lineNumber: 82,
+                lineNumber: 83,
                 columnNumber: 23
               }, this)
             ]
           }, void 0, !0, {
             fileName: "app/routes/service/index.jsx",
-            lineNumber: 63,
+            lineNumber: 64,
             columnNumber: 22
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/service/index.jsx",
-          lineNumber: 62,
+          lineNumber: 63,
           columnNumber: 21
         }, this)
       }, void 0, !1, {
         fileName: "app/routes/service/index.jsx",
-        lineNumber: 61,
+        lineNumber: 62,
         columnNumber: 18
       }, this)
     ]
@@ -2205,7 +2205,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), loader = async ()
   ]
 });
 function Posts() {
-  let { heading, description, postdata, apptype, servicetype, sdesc, image, data: data4, application, appimg, data1: data12 } = (0, import_react11.useLoaderData)();
+  let { heading, description, postdata, apptype, servicetype, sdesc, image, data: data3, application, appimg, data1: data12 } = (0, import_react11.useLoaderData)();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("main", {
     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(service_default, {
       heading,
@@ -2215,7 +2215,7 @@ function Posts() {
       servicetype,
       sdesc,
       image,
-      data: data4,
+      data: data3,
       application,
       appimg,
       data1: data12
@@ -2337,7 +2337,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), loader2 = async (
   ]
 });
 function Posts2() {
-  let { heading, description, postdata, apptype, servicetype, sdesc, image, data: data4, application, appimg, data1: data12 } = (0, import_react12.useLoaderData)();
+  let { heading, description, postdata, apptype, servicetype, sdesc, image, data: data3, application, appimg, data1: data12 } = (0, import_react12.useLoaderData)();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("main", {
     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(service_default, {
       heading,
@@ -2347,7 +2347,7 @@ function Posts2() {
       servicetype,
       sdesc,
       image,
-      data: data4,
+      data: data3,
       application,
       appimg,
       data1: data12
@@ -2461,7 +2461,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), loader3 = async (
   ]
 });
 function Posts3() {
-  let { heading, description, postdata, apptype, servicetype, sdesc, image, data: data4, application, appimg, data1: data12 } = (0, import_react13.useLoaderData)();
+  let { heading, description, postdata, apptype, servicetype, sdesc, image, data: data3, application, appimg, data1: data12 } = (0, import_react13.useLoaderData)();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("main", {
     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(service_default, {
       heading,
@@ -2471,7 +2471,7 @@ function Posts3() {
       servicetype,
       sdesc,
       image,
-      data: data4,
+      data: data3,
       application,
       appimg,
       data1: data12
@@ -2592,7 +2592,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), loader4 = async (
   ]
 });
 function Posts4() {
-  let { heading, description, postdata, apptype, servicetype, sdesc, image, data: data4, application, appimg, data1: data12 } = (0, import_react14.useLoaderData)();
+  let { heading, description, postdata, apptype, servicetype, sdesc, image, data: data3, application, appimg, data1: data12 } = (0, import_react14.useLoaderData)();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("main", {
     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(service_default, {
       heading,
@@ -2602,7 +2602,7 @@ function Posts4() {
       servicetype,
       sdesc,
       image,
-      data: data4,
+      data: data3,
       application,
       appimg,
       data1: data12
@@ -2632,7 +2632,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
       setLoader(!1), document.getElementById("m-error").innerHTML = "One or more fields have an error. Please check and try again.";
     else {
       document.getElementById("m-error").innerHTML = "", setLoader(!0);
-      let data4 = {
+      let data3 = {
         name,
         email,
         subject,
@@ -2640,7 +2640,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
       };
       setTimeout(async () => {
         setLoader(!1);
-      }, 2e3), console.log(data4);
+      }, 2e3), console.log(data3);
     }
   }, Loader = () => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
     class: "flex items-center justify-center  px-10  min-w-screen",
@@ -4727,6 +4727,9 @@ var frame = [
   "https://www.weenggs.com/wp-content/uploads/2019/07/Prolong-pro.png"
 ];
 
+// app/routes/index.jsx
+var import_react_router_dom = require("react-router-dom");
+
 // app/assets/onetwo.png
 var onetwo_default = "/build/_assets/onetwo-5A2P6UAD.png";
 
@@ -4736,97 +4739,130 @@ var tech_default = "/build/_assets/tech-H72BTXPA.png";
 // app/routes/index.jsx
 var import_carousel = __toESM(require("nuka-carousel/lib/carousel"));
 
-// app/ImageViewer/index.jsx
-var import_react21 = __toESM(require("react"));
-var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ImagePic = () => {
-  let [currentImage, setCurrentImage] = (0, import_react21.useState)(0), [isViewerOpen, setIsViewerOpen] = (0, import_react21.useState)(!1), lockScroll = (0, import_react21.useCallback)(() => {
-    document.body.style.overflow = "hidden";
-  }, []), unlockScroll = import_react21.default.useCallback(async () => {
-    document.body.style.overflow = "";
-  }, []), openImageViewer = (0, import_react21.useCallback)(async (index2) => {
-  }, []), closeImageViewer = async () => {
-    unlockScroll(), setCurrentImage(0), setIsViewerOpen(!1);
+// app/content/imageview/index.jsx
+var import_react21 = __toESM(require("react")), import_nuka_carousel = require("nuka-carousel"), import_jsx_dev_runtime = require("react/jsx-dev-runtime");
+function Slider({ data: data3, setOpen, index: index2, open }) {
+  console.log(index2);
+  let [current, setCurrent] = (0, import_react21.useState)(index2), [images, setImages] = import_react21.default.useState([]), handleClose = () => {
+    setOpen(!1);
+  }, length = data3.length, nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  }, prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-    className: "bg-[#f8f9fa]",
-    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-      className: " lg:w-full block m-auto ",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "py-20 h-full ",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-            className: "text-center  text-[#999] ",
-            children: "OUR"
+  return !Array.isArray(data3) || data3.length <= 0 ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+    className: "flex absolute h-screen w-screen bg-[#0004] z-50 justify-center items-center ",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+        className: " mr-4 bg-white rounded-3xl p-5 hidden lg:block",
+        onClick: prevSlide,
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("svg", {
+          xmlns: "http://www.w3.org/2000/svg",
+          fill: "none",
+          viewBox: "0 0 24 24",
+          stroke: "currentColor",
+          "stroke-width": "2",
+          className: "h-6 w-6  text-black",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("path", {
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round",
+            d: "M10 19l-7-7m0 0l7-7m-7 7h18"
           }, void 0, !1, {
-            fileName: "app/ImageViewer/index.jsx",
-            lineNumber: 30,
-            columnNumber: 11
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-            className: "text-2xl lg:text-5xl md:text-5xl mb-10 text-center  text-[#b52332]",
-            children: "Work"
-          }, void 0, !1, {
-            fileName: "app/ImageViewer/index.jsx",
-            lineNumber: 31,
-            columnNumber: 11
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-            className: "container  m-auto my-5",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-              className: "grid lg:grid-cols-3 md:grid-cols-2 lg:w-[990px] m-auto ",
-              children: data2.map((item, index2) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "rounded-lg ",
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
-                  className: " h-[20px] mb-5 lg:hover:animate-bounce",
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
-                    className: " ",
-                    width: "auto",
-                    height: "auto",
-                    src: item,
-                    onClick: () => openImageViewer(index2),
-                    alt: "Weenggs Technology"
-                  }, void 0, !1, {
-                    fileName: "app/ImageViewer/index.jsx",
-                    lineNumber: 38,
-                    columnNumber: 25
-                  }, this)
-                }, void 0, !1, {
-                  fileName: "app/ImageViewer/index.jsx",
-                  lineNumber: 37,
-                  columnNumber: 26
-                }, this)
-              }, index2, !1, {
-                fileName: "app/ImageViewer/index.jsx",
-                lineNumber: 36,
-                columnNumber: 25
-              }, this))
-            }, void 0, !1, {
-              fileName: "app/ImageViewer/index.jsx",
-              lineNumber: 33,
-              columnNumber: 11
-            }, this)
-          }, void 0, !1, {
-            fileName: "app/ImageViewer/index.jsx",
-            lineNumber: 32,
-            columnNumber: 11
+            fileName: "app/content/imageview/index.jsx",
+            lineNumber: 81,
+            columnNumber: 12
           }, this)
-        ]
-      }, void 0, !0, {
-        fileName: "app/ImageViewer/index.jsx",
-        lineNumber: 29,
-        columnNumber: 9
+        }, void 0, !1, {
+          fileName: "app/content/imageview/index.jsx",
+          lineNumber: 80,
+          columnNumber: 8
+        }, this)
+      }, void 0, !1, {
+        fileName: "app/content/imageview/index.jsx",
+        lineNumber: 79,
+        columnNumber: 5
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+        className: "absolute mr-4 top-0 right-0 rounded-3xl p-5 hidden lg:block",
+        onClick: () => setOpen(!open),
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("svg", {
+          xmlns: "http://www.w3.org/2000/svg",
+          class: "h-6 w-6 text-gray",
+          fill: "none",
+          viewBox: "0 0 24 24",
+          stroke: "currentColor",
+          "stroke-width": "2",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("path", {
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round",
+            d: "M6 18L18 6M6 6l12 12"
+          }, void 0, !1, {
+            fileName: "app/content/imageview/index.jsx",
+            lineNumber: 86,
+            columnNumber: 4
+          }, this)
+        }, void 0, !1, {
+          fileName: "app/content/imageview/index.jsx",
+          lineNumber: 85,
+          columnNumber: 4
+        }, this)
+      }, void 0, !1, {
+        fileName: "app/content/imageview/index.jsx",
+        lineNumber: 84,
+        columnNumber: 4
+      }, this),
+      data3.map((slide, index3) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
+        children: index3 === current && /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
+          src: slide,
+          alt: "travel image",
+          className: "h-screen w-full"
+        }, void 0, !1, {
+          fileName: "app/content/imageview/index.jsx",
+          lineNumber: 93,
+          columnNumber: 20
+        }, this)
+      }, void 0, !1, {
+        fileName: "app/content/imageview/index.jsx",
+        lineNumber: 91,
+        columnNumber: 12
+      }, this)),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+        className: "ml-4 bg-white rounded-3xl p-5 hidden lg:block",
+        onClick: nextSlide,
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("svg", {
+          xmlns: "http://www.w3.org/2000/svg",
+          fill: "none",
+          viewBox: "0 0 24 24",
+          stroke: "currentColor",
+          "stroke-width": "2",
+          className: "h-6 w-6 text-black ",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("path", {
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round",
+            d: "M14 5l7 7m0 0l-7 7m7-7H3"
+          }, void 0, !1, {
+            fileName: "app/content/imageview/index.jsx",
+            lineNumber: 100,
+            columnNumber: 12
+          }, this)
+        }, void 0, !1, {
+          fileName: "app/content/imageview/index.jsx",
+          lineNumber: 99,
+          columnNumber: 8
+        }, this)
+      }, void 0, !1, {
+        fileName: "app/content/imageview/index.jsx",
+        lineNumber: 98,
+        columnNumber: 4
       }, this)
-    }, void 0, !1, {
-      fileName: "app/ImageViewer/index.jsx",
-      lineNumber: 28,
-      columnNumber: 7
-    }, this)
-  }, void 0, !1, {
-    fileName: "app/ImageViewer/index.jsx",
-    lineNumber: 27,
+    ]
+  }, void 0, !0, {
+    fileName: "app/content/imageview/index.jsx",
+    lineNumber: 78,
     columnNumber: 5
   }, this);
-}, ImageViewer_default = ImagePic;
+}
+var imageview_default = Slider;
 
 // app/ProgressLine/index.jsx
 var import_react22 = require("react");
@@ -4850,7 +4886,8 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ProgressLine = ({
         visualParts.map((item) => item.percentage)
       );
     });
-  }, [visualParts]), /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
+  }, [visualParts]), /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+    className: "mb-10",
     children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
         className: "text-sm text-gray-500",
@@ -4908,716 +4945,819 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ProgressLine = ({
 }, ProgressLine_default = ProgressLine;
 
 // app/routes/index.jsx
-var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
-  let [currentImage, setCurrentImage] = (0, import_react23.useState)(0), [isViewerOpen, setIsViewerOpen] = (0, import_react23.useState)(!1), openImageViewer = (0, import_react23.useCallback)((index2) => {
-    setCurrentImage(index2), setIsViewerOpen(!0);
+var import_react_simple_image_viewer = require("react-simple-image-viewer"), import_react_full_screen = require("react-full-screen"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
+  let [open, setOpen] = (0, import_react23.useState)(!1), [index2, setIndex] = (0, import_react23.useState)(0), imageClick = (index3) => {
+    setOpen(!0), setIndex(index3);
+  }, [currentImage, setCurrentImage] = (0, import_react23.useState)(0), [isViewerOpen, setIsViewerOpen] = (0, import_react23.useState)(!1), openImageViewer = (0, import_react23.useCallback)((index3) => {
+    setCurrentImage(index3), setIsViewerOpen(!0);
   }, []), closeImageViewer = () => {
     setCurrentImage(0), setIsViewerOpen(!1);
   };
   return (0, import_react23.useEffect)(() => {
     document.title = "Weenggs Technology";
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
-    children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 33,
-        columnNumber: 2
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "h-screen w-full bg-no-repeat bg-center m-auto bg-cover bg-[url('https://www.weenggs.com/wp-content/uploads/2019/08/bg.jpg')]",
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-          className: "bg-[#7f818b] opacity-80  flex",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-            className: "h-[100vh] justify-center items-center lg:h-[100vh] p-4 lg:w-[1140px] flex m-auto",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-              className: " text-center flex-col justify-center",
-              children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                  className: "text-2xl font-sans lg:text-4xl md:text-4xl mb-10  text-center  text-[#ffffff]",
-                  children: "The epicenter where latest technology meets creativity!"
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 40,
-                  columnNumber: 13
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  className: "text-center mb-10 font-medium lg:text-xl text-sm text-[#e9e5e5] text-md ",
+    children: open ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(imageview_default, {
+      data: data2,
+      setOpen,
+      index: index2,
+      open
+    }, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 42,
+      columnNumber: 3
+    }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
+      children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+          class: "h-screen w-full inline-grid bg-no-repeat bg-center bg-cover bg-[url('https://www.weenggs.com/wp-content/uploads/2019/08/bg.jpg')]",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+              class: "bg-[#060606] opacity-70  flex",
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+                className: "h-[100vh] justify-center items-center lg:max-h-[100vh] p-4 lg:max-w-[1140px] flex m-auto",
+                children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: " text-center flex-col justify-center",
                   children: [
-                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                      children: "A team of professionals that help you nurture & grow your business!"
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                      className: "text-2xl font-sans lg:text-4xl md:text-4xl mb-10 xl:text-xl   text-[#ffffff]",
+                      children: "The epicenter where latest technology meets creativity!"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 42,
-                      columnNumber: 15
+                      lineNumber: 51,
+                      columnNumber: 13
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                      children: "Design & Develop Stunning Websites"
-                    }, void 0, !1, {
+                      className: "text-center  font-medium md:text-md xl:text-lg text-sm text-[#e9e5e5] text-md ",
+                      children: [
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                          children: "A team of professionals that help you nurture & grow your business!"
+                        }, void 0, !1, {
+                          fileName: "app/routes/index.jsx",
+                          lineNumber: 53,
+                          columnNumber: 15
+                        }, this),
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                          children: "Design & Develop Stunning Websites"
+                        }, void 0, !1, {
+                          fileName: "app/routes/index.jsx",
+                          lineNumber: 54,
+                          columnNumber: 15
+                        }, this),
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                          children: "Code some Kick-ass Mobile Applications"
+                        }, void 0, !1, {
+                          fileName: "app/routes/index.jsx",
+                          lineNumber: 55,
+                          columnNumber: 15
+                        }, this),
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                          children: "Provide 24/7 Customer Service"
+                        }, void 0, !1, {
+                          fileName: "app/routes/index.jsx",
+                          lineNumber: 56,
+                          columnNumber: 15
+                        }, this)
+                      ]
+                    }, void 0, !0, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 43,
-                      columnNumber: 15
-                    }, this),
-                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                      children: "Code some Kick-ass Mobile Applications"
-                    }, void 0, !1, {
-                      fileName: "app/routes/index.jsx",
-                      lineNumber: 44,
-                      columnNumber: 15
-                    }, this),
-                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                      children: "Provide 24/7 Customer Service"
-                    }, void 0, !1, {
-                      fileName: "app/routes/index.jsx",
-                      lineNumber: 45,
-                      columnNumber: 15
+                      lineNumber: 52,
+                      columnNumber: 13
                     }, this)
                   ]
                 }, void 0, !0, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 41,
-                  columnNumber: 13
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
-                  className: "bg-red-700  hrover:bg-green m-auto flex font:semibold text-sm text-white align-center uppercase py-3 px-6 rounded-full",
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
-                    href: "/request-a-quote",
-                    children: "LET'S GET STARTED"
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 48,
-                    columnNumber: 15
-                  }, this)
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 47,
-                  columnNumber: 13
-                }, this)
-              ]
-            }, void 0, !0, {
-              fileName: "app/routes/index.jsx",
-              lineNumber: 39,
-              columnNumber: 11
-            }, this)
-          }, void 0, !1, {
-            fileName: "app/routes/index.jsx",
-            lineNumber: 38,
-            columnNumber: 9
-          }, this)
-        }, void 0, !1, {
-          fileName: "app/routes/index.jsx",
-          lineNumber: 37,
-          columnNumber: 9
-        }, this)
-      }, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 36,
-        columnNumber: 2
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "bg-[#f8f9fa]",
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-          className: " py-20  lg:max-w-[1140px] p-10 block m-auto",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-            className: "",
-            children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                className: "text-center text-[15px] font-weight: 700; text-[#999] ",
-                children: "YOUR NOT-SO-AVERAGE"
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 60,
-                columnNumber: 4
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                className: "text-sm  md:text-4xl mb-10 text-center  text-[#b52332]",
-                children: "MOBILE APPS AND WEBSITE DEVELOPERS"
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 61,
-                columnNumber: 4
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "text-center mb-10  lg:text-sm text-[#595959] text-sm m-5",
-                children: "Inspired by art and technology, we integrate designs and smart development to create some of the most user-centric websites and mobile applications. We are all about bringing your unique ideas to life and delivering success."
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 62,
-                columnNumber: 4
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "container  m-auto my-5",
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  className: "grid lg:grid-cols-3 w-auto  m-auto ",
-                  children: frame.map((list, index2) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    className: `lg:w-[300px] md:my-5 bg-white h-auto m-[10px] p-[10px] mb-0 transition duration-500 ease-in-out transform 
-				  hover:-translate-y-1 hover:scale-110  rounded-lg  `,
-                    children: [
-                      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                        className: "flex justify-center  animate-bounce",
-                        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
-                          className: "mb-4 text-center m-auto flex",
-                          width: "80",
-                          height: "80",
-                          src: list.logo,
-                          alt: "Weenggs Technology"
-                        }, void 0, !1, {
-                          fileName: "app/routes/index.jsx",
-                          lineNumber: 73,
-                          columnNumber: 7
-                        }, this)
-                      }, void 0, !1, {
-                        fileName: "app/routes/index.jsx",
-                        lineNumber: 72,
-                        columnNumber: 7
-                      }, this),
-                      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                        className: "text-center p-5 text-md uppercase",
-                        children: list.name
-                      }, void 0, !1, {
-                        fileName: "app/routes/index.jsx",
-                        lineNumber: 75,
-                        columnNumber: 8
-                      }, this),
-                      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                        className: "text-[#999999] text-sm text-center hover:animate-pulse",
-                        children: [
-                          list.desc,
-                          " "
-                        ]
-                      }, void 0, !0, {
-                        fileName: "app/routes/index.jsx",
-                        lineNumber: 76,
-                        columnNumber: 8
-                      }, this)
-                    ]
-                  }, index2, !0, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 70,
-                    columnNumber: 7
-                  }, this))
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 67,
-                  columnNumber: 6
-                }, this)
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 66,
-                columnNumber: 4
-              }, this)
-            ]
-          }, void 0, !0, {
-            fileName: "app/routes/index.jsx",
-            lineNumber: 59,
-            columnNumber: 5
-          }, this)
-        }, void 0, !1, {
-          fileName: "app/routes/index.jsx",
-          lineNumber: 58,
-          columnNumber: 3
-        }, this)
-      }, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 57,
-        columnNumber: 3
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "bg-[#bf1e2e]",
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-          className: "lg:max-w-[1140px] p-10 block m-auto",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-            className: "py-20",
-            children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                className: "text-center text-[16px] text-[#e5e2e2] ",
-                children: "THE PERFECT BLEND OF"
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 89,
-                columnNumber: 5
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                className: "  text-[15px] md:text-3xl mb-10 text-center  text-[#fff]",
-                children: "CREATIVE-PROWESS, TECHNOLOGY AND EXTRAORDINARY SERVICE!"
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 90,
-                columnNumber: 5
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "text-center mb-10  text-sm text-[#fff]  ",
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                  className: "leading-7  text-[#d3d3d3]",
-                  children: "We are a team of experienced strategists, designers, developers and project managers. With get shit done attitude, we can accomplish any challenge out there Our in-depth understanding of futuristic technology is what brought us together and it\u2019s what keeps us moving forward. Leaving the extra-mile way behind, we happen to offer exceptional services to all our clients, including web development, mobile app development, UX design and more."
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 92,
-                  columnNumber: 7
-                }, this)
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 91,
-                columnNumber: 5
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "text-center ",
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
-                  className: "bg-[#fff] md:mt-10 font-semibold text-center tracking-[1px] py-3 px-6 rounded-full text-xs text-red-600 capitalize",
-                  children: "TELL US WHAT YOU NEED AND WE WILL MAKE THE MAGIC HAPPEN!"
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 96,
-                  columnNumber: 6
-                }, this)
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 95,
-                columnNumber: 5
-              }, this)
-            ]
-          }, void 0, !0, {
-            fileName: "app/routes/index.jsx",
-            lineNumber: 88,
-            columnNumber: 6
-          }, this)
-        }, void 0, !1, {
-          fileName: "app/routes/index.jsx",
-          lineNumber: 87,
-          columnNumber: 4
-        }, this)
-      }, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 86,
-        columnNumber: 3
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "bg-[#fff]",
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-          className: "lg:max-w-[1140px] pt-[100px] block m-auto",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-            className: "w-full md:flex lg:flex ",
-            children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "lg:pt-20  lg:w-3/6 md:w-3/6 px-4 w-full",
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                    className: "text-[#999] text-sm font-bold ",
-                    children: "REASONS WHY TOP BRANDS"
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 109,
-                    columnNumber: 7
-                  }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                    className: "text-[#bf1e2e] lg:text-4xl md:text-2xl font-bold mb-5",
-                    children: "CHOOSE US!"
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 110,
-                    columnNumber: 7
-                  }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", {
-                    className: "py-5",
-                    children: brands.map((listdata, index2) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", {
-                      className: "flex p-1",
-                      children: [
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("i", {
-                          className: "fa m-1",
-                          children: "\uF087"
-                        }, void 0, !1, {
-                          fileName: "app/routes/index.jsx",
-                          lineNumber: 116,
-                          columnNumber: 7
-                        }, this),
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                          className: "ml-1",
-                          children: [
-                            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                              className: "mb-2 text-base",
-                              children: listdata.heading
-                            }, void 0, !1, {
-                              fileName: "app/routes/index.jsx",
-                              lineNumber: 118,
-                              columnNumber: 7
-                            }, this),
-                            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                              className: "m-auto text-gray-500 text-sm",
-                              children: listdata.desc
-                            }, void 0, !1, {
-                              fileName: "app/routes/index.jsx",
-                              lineNumber: 119,
-                              columnNumber: 7
-                            }, this)
-                          ]
-                        }, void 0, !0, {
-                          fileName: "app/routes/index.jsx",
-                          lineNumber: 117,
-                          columnNumber: 7
-                        }, this)
-                      ]
-                    }, index2, !0, {
-                      fileName: "app/routes/index.jsx",
-                      lineNumber: 115,
-                      columnNumber: 7
-                    }, this))
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 112,
-                    columnNumber: 7
-                  }, this)
-                ]
-              }, void 0, !0, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 108,
-                columnNumber: 6
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "lg:pt-20  pt-5 px-5 lg:w-3/6 md:w-3/6 ",
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
-                  className: "animate-pulse",
-                  src: onetwo_default,
-                  alt: "logo"
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 127,
-                  columnNumber: 7
-                }, this)
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 126,
-                columnNumber: 6
-              }, this)
-            ]
-          }, void 0, !0, {
-            fileName: "app/routes/index.jsx",
-            lineNumber: 107,
-            columnNumber: 5
-          }, this)
-        }, void 0, !1, {
-          fileName: "app/routes/index.jsx",
-          lineNumber: 106,
-          columnNumber: 4
-        }, this)
-      }, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 105,
-        columnNumber: 3
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ImageViewer_default, {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 133,
-        columnNumber: 2
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "bg-[#fff]",
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-          className: "lg:pb-20 lg:max-w-[1140px] block m-auto",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-            className: "w-full md:flex lg:flex ",
-            children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "lg:py-20 p-10 lg:w-3/6 md:w-3/6  w-full",
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                    className: "text-[#999] text-sm  ",
-                    children: "TECHNOLOGIES WE ARE VERY SAVVY"
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 139,
-                    columnNumber: 10
-                  }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                    className: "text-[#bf1e2e] lg:font-weight:600; lg:text-4xl md:text-2xl mb-5 ",
-                    children: "WITH OUR SKILLS"
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 140,
-                    columnNumber: 10
-                  }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    className: "py-5",
-                    children: datasubject && datasubject.map((data4, ind) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ProgressLine_default, {
-                      label: data4.subject,
-                      visualParts: [
-                        {
-                          percentage: data4.marks,
-                          color: "#bf1e2e"
-                        }
-                      ]
-                    }, ind, !1, {
-                      fileName: "app/routes/index.jsx",
-                      lineNumber: 143,
-                      columnNumber: 17
-                    }, this))
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 141,
-                    columnNumber: 9
-                  }, this)
-                ]
-              }, void 0, !0, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 138,
-                columnNumber: 9
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "lg:pt-36 hidden md:block text-center py-20 lg:full md:w-3/6 ",
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
-                  className: "lg:hover:translate-y-10 transition duration-300 ",
-                  src: tech_default,
-                  alt: "logo"
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 159,
+                  lineNumber: 50,
                   columnNumber: 11
                 }, this)
               }, void 0, !1, {
                 fileName: "app/routes/index.jsx",
-                lineNumber: 158,
-                columnNumber: 9
+                lineNumber: 49,
+                columnNumber: 3
               }, this)
-            ]
-          }, void 0, !0, {
-            fileName: "app/routes/index.jsx",
-            lineNumber: 137,
-            columnNumber: 8
-          }, this)
-        }, void 0, !1, {
+            }, void 0, !1, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 48,
+              columnNumber: 8
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
+              style: { marginTop: "-165px" },
+              className: " bg-red-700 z-0 hrover:bg-green m-auto flex font:semibold text-sm text-white align-center uppercase py-3 px-6 rounded-full",
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
+                href: "/request-a-quote",
+                children: "LET'S GET STARTED"
+              }, void 0, !1, {
+                fileName: "app/routes/index.jsx",
+                lineNumber: 67,
+                columnNumber: 15
+              }, this)
+            }, void 0, !1, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 66,
+              columnNumber: 3
+            }, this)
+          ]
+        }, void 0, !0, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 136,
-          columnNumber: 7
-        }, this)
-      }, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 135,
-        columnNumber: 3
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "bg-[#f8f9fa]",
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-          className: " lg:max-w-[1140px] block m-auto",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-            className: "py-[100px] h-full ",
-            children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                className: "text-center  text-[#999] ",
-                children: "OUR"
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 168,
-                columnNumber: 11
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                className: "text-2xl lg:text-4xl md:text-4xl mb-10 text-center  text-[#b52332]",
-                children: "TESTIMONIALS"
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 169,
-                columnNumber: 11
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "container  m-auto my-5",
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  className: "flex flex-col w-full p-5  ",
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_carousel.default, {
-                    autoplay: !0,
-                    className: "slider-container  ",
-                    children: details.map((items, ind) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                      className: "grid grid-cols-1  p-5  w-full  bg-[#fff] h-auto  rounded-lg ",
+          lineNumber: 47,
+          columnNumber: 4
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+          className: "bg-[#f8f9fa]",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+            className: " py-20  lg:max-w-[1140px] p-10 block m-auto",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+              className: "",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                  className: "text-center text-[15px] font-weight: 700; text-[#999] ",
+                  children: "YOUR NOT-SO-AVERAGE"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 76,
+                  columnNumber: 4
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                  className: "text-sm  md:text-4xl mb-10 text-center  text-[#b52332]",
+                  children: "MOBILE APPS AND WEBSITE DEVELOPERS"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 77,
+                  columnNumber: 4
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "text-center mb-10  lg:text-sm text-[#595959] text-sm m-5",
+                  children: "Inspired by art and technology, we integrate designs and smart development to create some of the most user-centric websites and mobile applications. We are all about bringing your unique ideas to life and delivering success."
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 78,
+                  columnNumber: 4
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "container  m-auto my-5",
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                    className: "grid lg:grid-cols-3 w-auto  m-auto ",
+                    children: frame.map((list, index3) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                      className: `lg:w-[300px] md:my-5 bg-white h-auto m-[10px] p-[10px] mb-0 transition duration-500 ease-in-out transform 
+				  hover:-translate-y-1 hover:scale-110 rounded-lg  `,
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                          className: "text-[#595959] text-sm mb-5  h-[150px] overflow-x-auto ",
-                          children: items.title
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                          className: "flex justify-center hover:animate-bounce ",
+                          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
+                            className: "mb-4 text-center m-auto flex",
+                            width: "80",
+                            height: "80",
+                            src: list.logo,
+                            alt: "Weenggs Technology"
+                          }, void 0, !1, {
+                            fileName: "app/routes/index.jsx",
+                            lineNumber: 89,
+                            columnNumber: 7
+                          }, this)
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 180,
-                          columnNumber: 25
+                          lineNumber: 88,
+                          columnNumber: 7
                         }, this),
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                          className: "flex w-fit ",
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                          className: "text-center p-5 pt-5 text-md uppercase",
+                          children: list.name
+                        }, void 0, !1, {
+                          fileName: "app/routes/index.jsx",
+                          lineNumber: 91,
+                          columnNumber: 8
+                        }, this),
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                          className: "text-[#999999] text-sm text-center hover:animate-pulse",
                           children: [
-                            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
-                              className: "mx-4 m-auto rounded-full mr-2",
-                              width: "80",
-                              height: "80",
-                              src: items.image,
-                              alt: "Weenggs Technology"
-                            }, void 0, !1, {
-                              fileName: "app/routes/index.jsx",
-                              lineNumber: 185,
-                              columnNumber: 24
-                            }, this),
-                            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                              className: "text-sm text-[#4169e2] m-auto p-2",
-                              children: [
-                                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                                  className: "",
-                                  children: items.name
-                                }, void 0, !1, {
-                                  fileName: "app/routes/index.jsx",
-                                  lineNumber: 187,
-                                  columnNumber: 26
-                                }, this),
-                                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
-                                  href: "https://hoaviol.com",
-                                  className: "flex-wrap",
-                                  children: items.link
-                                }, void 0, !1, {
-                                  fileName: "app/routes/index.jsx",
-                                  lineNumber: 188,
-                                  columnNumber: 26
-                                }, this)
-                              ]
-                            }, void 0, !0, {
-                              fileName: "app/routes/index.jsx",
-                              lineNumber: 186,
-                              columnNumber: 26
-                            }, this)
+                            list.desc,
+                            " "
                           ]
                         }, void 0, !0, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 183,
-                          columnNumber: 24
+                          lineNumber: 92,
+                          columnNumber: 8
                         }, this)
                       ]
-                    }, ind, !0, {
+                    }, index3, !0, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 179,
-                      columnNumber: 24
+                      lineNumber: 86,
+                      columnNumber: 7
                     }, this))
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 175,
-                    columnNumber: 16
+                    lineNumber: 83,
+                    columnNumber: 6
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 172,
-                  columnNumber: 10
+                  lineNumber: 82,
+                  columnNumber: 4
                 }, this)
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 170,
-                columnNumber: 11
-              }, this)
-            ]
-          }, void 0, !0, {
+              ]
+            }, void 0, !0, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 75,
+              columnNumber: 5
+            }, this)
+          }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 167,
-            columnNumber: 9
+            lineNumber: 74,
+            columnNumber: 3
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 166,
-          columnNumber: 7
-        }, this)
-      }, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 165,
-        columnNumber: 4
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "bg-[#fff]",
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-          className: "lg:max-w-[1140px] justify-center block m-auto md:my-[100px] ",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-            className: "lg:pt-30 pt-30 p-10 h-full ",
-            children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                className: "text-center  text-[#999] ",
-                children: "OUR"
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 209,
-                columnNumber: 6
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                className: "text-2xl lg:text-4xl md:text-4xl text-center  text-[#b52332]",
-                children: "CLIENTS"
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 210,
-                columnNumber: 6
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                className: "text-center text-sm text-[#999] ",
-                children: "Some of the many clients we've helped achieve great results"
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 211,
-                columnNumber: 6
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "container my-5 m-auto",
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  className: "flex flex-col w-full h-fit",
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    className: "slider-container max-w[1140px] ",
-                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_carousel.default, {
-                      wrapAround: !0,
-                      autoplay: !0,
-                      cellAlign: "center",
-                      children: client && client.map((citem, ind) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                        className: "h-auto   m-auto ",
-                        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
-                          className: " m-auto",
-                          src: citem,
-                          alt: "img-not-found"
-                        }, void 0, !1, {
-                          fileName: "app/routes/index.jsx",
-                          lineNumber: 220,
-                          columnNumber: 9
-                        }, this)
-                      }, ind, !1, {
-                        fileName: "app/routes/index.jsx",
-                        lineNumber: 218,
-                        columnNumber: 9
-                      }, this))
-                    }, void 0, !1, {
-                      fileName: "app/routes/index.jsx",
-                      lineNumber: 216,
-                      columnNumber: 8
-                    }, this)
+          lineNumber: 73,
+          columnNumber: 4
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+          className: "bg-[#bf1e2e]",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+            className: "lg:max-w-[1140px] p-10 block m-auto",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+              className: "py-20",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                  className: "text-center text-[16px] text-[#e5e2e2] ",
+                  children: "THE PERFECT BLEND OF"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 105,
+                  columnNumber: 5
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                  className: "  text-[15px] md:text-3xl  mb-10 text-center  text-[#fff]",
+                  children: "CREATIVE-PROWESS, TECHNOLOGY AND EXTRAORDINARY SERVICE!"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 106,
+                  columnNumber: 5
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "text-center mb-10  text-sm text-[#fff]  ",
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                    className: "leading-7  text-[#d3d3d3]",
+                    children: "We are a team of experienced strategists, designers, developers and project managers. With get shit done attitude, we can accomplish any challenge out there Our in-depth understanding of futuristic technology is what brought us together and it\u2019s what keeps us moving forward. Leaving the extra-mile way behind, we happen to offer exceptional services to all our clients, including web development, mobile app development, UX design and more."
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 214,
+                    lineNumber: 108,
                     columnNumber: 7
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 213,
-                  columnNumber: 6
+                  lineNumber: 107,
+                  columnNumber: 5
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "text-center ",
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react_router_dom.Link, {
+                    to: "/request-a-quote",
+                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
+                      className: "bg-[#fff] md:mt-10 font-semibold text-center tracking-[1px] py-3 px-6 rounded-full text-xs text-red-600 capitalize ",
+                      children: "TELL US WHAT YOU NEED AND WE WILL MAKE THE MAGIC HAPPEN!"
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 113,
+                      columnNumber: 6
+                    }, this)
+                  }, void 0, !1, {
+                    fileName: "app/routes/index.jsx",
+                    lineNumber: 112,
+                    columnNumber: 6
+                  }, this)
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 111,
+                  columnNumber: 5
                 }, this)
-              }, void 0, !1, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 212,
-                columnNumber: 6
-              }, this)
-            ]
-          }, void 0, !0, {
+              ]
+            }, void 0, !0, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 104,
+              columnNumber: 6
+            }, this)
+          }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 208,
-            columnNumber: 6
+            lineNumber: 103,
+            columnNumber: 4
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 207,
-          columnNumber: 5
+          lineNumber: 102,
+          columnNumber: 3
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+          className: "bg-[#fff]",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+            className: "lg:max-w-[1140px] pt-[100px] block m-auto",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+              className: "w-full md:flex lg:flex ",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "lg:pt-20  lg:w-3/6 md:w-3/6 px-4 w-full",
+                  children: [
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                      className: "text-[#999] text-sm font-bold ",
+                      children: "REASONS WHY TOP BRANDS"
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 127,
+                      columnNumber: 7
+                    }, this),
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                      className: "text-[#bf1e2e] lg:text-4xl md:text-2xl font-bold mb-5",
+                      children: "CHOOSE US!"
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 128,
+                      columnNumber: 7
+                    }, this),
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", {
+                      className: "py-5",
+                      children: brands.map((listdata, index3) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", {
+                        className: "flex p-1",
+                        children: [
+                          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("i", {
+                            className: "fa m-1",
+                            children: "\uF087"
+                          }, void 0, !1, {
+                            fileName: "app/routes/index.jsx",
+                            lineNumber: 134,
+                            columnNumber: 7
+                          }, this),
+                          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                            className: "ml-1",
+                            children: [
+                              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                                className: "mb-2 text-base",
+                                children: listdata.heading
+                              }, void 0, !1, {
+                                fileName: "app/routes/index.jsx",
+                                lineNumber: 136,
+                                columnNumber: 7
+                              }, this),
+                              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                                className: "m-auto text-gray-500 text-sm",
+                                children: listdata.desc
+                              }, void 0, !1, {
+                                fileName: "app/routes/index.jsx",
+                                lineNumber: 137,
+                                columnNumber: 7
+                              }, this)
+                            ]
+                          }, void 0, !0, {
+                            fileName: "app/routes/index.jsx",
+                            lineNumber: 135,
+                            columnNumber: 7
+                          }, this)
+                        ]
+                      }, index3, !0, {
+                        fileName: "app/routes/index.jsx",
+                        lineNumber: 133,
+                        columnNumber: 7
+                      }, this))
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 130,
+                      columnNumber: 7
+                    }, this)
+                  ]
+                }, void 0, !0, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 126,
+                  columnNumber: 6
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "lg:pt-20  pt-5 px-5 lg:w-3/6 md:w-3/6 p-20 ",
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
+                    className: "",
+                    src: onetwo_default,
+                    alt: "logo"
+                  }, void 0, !1, {
+                    fileName: "app/routes/index.jsx",
+                    lineNumber: 145,
+                    columnNumber: 7
+                  }, this)
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 144,
+                  columnNumber: 6
+                }, this)
+              ]
+            }, void 0, !0, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 125,
+              columnNumber: 5
+            }, this)
+          }, void 0, !1, {
+            fileName: "app/routes/index.jsx",
+            lineNumber: 124,
+            columnNumber: 4
+          }, this)
+        }, void 0, !1, {
+          fileName: "app/routes/index.jsx",
+          lineNumber: 123,
+          columnNumber: 3
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+            className: "bg-[#f8f9fa]",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+              className: " lg:w-full block m-auto ",
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                className: "py-20 h-full ",
+                children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                    className: "text-center  text-[#999] ",
+                    children: "OUR"
+                  }, void 0, !1, {
+                    fileName: "app/routes/index.jsx",
+                    lineNumber: 157,
+                    columnNumber: 11
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                    className: "text-2xl lg:text-5xl md:text-5xl mb-10 text-center  text-[#b52332]",
+                    children: "Work"
+                  }, void 0, !1, {
+                    fileName: "app/routes/index.jsx",
+                    lineNumber: 158,
+                    columnNumber: 11
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                    className: "container  m-auto my-5",
+                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                      className: "grid lg:grid-cols-3 md:grid-cols-2 lg:w-[990px] m-auto ",
+                      children: data2.map((item, index3) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
+                        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                          className: "rounded-lg ",
+                          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
+                            className: " h-[20px] mb-5 lg:hover:animate-bounce",
+                            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
+                              className: " ",
+                              width: "auto",
+                              height: "auto",
+                              src: item,
+                              onClick: () => imageClick(index3),
+                              alt: "Weenggs Technology"
+                            }, void 0, !1, {
+                              fileName: "app/routes/index.jsx",
+                              lineNumber: 167,
+                              columnNumber: 25
+                            }, this)
+                          }, void 0, !1, {
+                            fileName: "app/routes/index.jsx",
+                            lineNumber: 166,
+                            columnNumber: 26
+                          }, this)
+                        }, index3, !1, {
+                          fileName: "app/routes/index.jsx",
+                          lineNumber: 165,
+                          columnNumber: 25
+                        }, this)
+                      }, void 0, !1, {
+                        fileName: "app/routes/index.jsx",
+                        lineNumber: 164,
+                        columnNumber: 7
+                      }, this))
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 161,
+                      columnNumber: 11
+                    }, this)
+                  }, void 0, !1, {
+                    fileName: "app/routes/index.jsx",
+                    lineNumber: 160,
+                    columnNumber: 11
+                  }, this)
+                ]
+              }, void 0, !0, {
+                fileName: "app/routes/index.jsx",
+                lineNumber: 156,
+                columnNumber: 9
+              }, this)
+            }, void 0, !1, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 155,
+              columnNumber: 7
+            }, this)
+          }, void 0, !1, {
+            fileName: "app/routes/index.jsx",
+            lineNumber: 153,
+            columnNumber: 2
+          }, this)
+        }, void 0, !1, {
+          fileName: "app/routes/index.jsx",
+          lineNumber: 150,
+          columnNumber: 2
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+          className: "bg-[#fff]",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+            className: "lg:pb-20 lg:max-w-[1140px] block m-auto",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+              className: "w-full md:flex lg:flex ",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "lg:py-20 p-10 lg:w-3/6 xl:4/6 md:w-3/6  w-full",
+                  children: [
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                      className: "text-[#999] text-sm  ",
+                      children: "TECHNOLOGIES WE ARE VERY SAVVY"
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 191,
+                      columnNumber: 10
+                    }, this),
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                      className: "text-[#bf1e2e] lg:font-weight:600; lg:text-4xl md:text-2xl mb-5 ",
+                      children: "WITH OUR SKILLS"
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 192,
+                      columnNumber: 10
+                    }, this),
+                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                      className: "py-5",
+                      children: datasubject && datasubject.map((data3, ind) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ProgressLine_default, {
+                        label: data3.subject,
+                        visualParts: [
+                          {
+                            percentage: data3.marks,
+                            color: "#bf1e2e"
+                          }
+                        ]
+                      }, ind, !1, {
+                        fileName: "app/routes/index.jsx",
+                        lineNumber: 195,
+                        columnNumber: 17
+                      }, this))
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 193,
+                      columnNumber: 9
+                    }, this)
+                  ]
+                }, void 0, !0, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 190,
+                  columnNumber: 9
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "lg:pt-36 hidden md:block text-center py-20 lg:full md:w-3/6 ",
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
+                    className: "lg:hover:translate-y-10 transition duration-300 p-10 ",
+                    src: tech_default,
+                    alt: "logo"
+                  }, void 0, !1, {
+                    fileName: "app/routes/index.jsx",
+                    lineNumber: 211,
+                    columnNumber: 11
+                  }, this)
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 210,
+                  columnNumber: 9
+                }, this)
+              ]
+            }, void 0, !0, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 189,
+              columnNumber: 8
+            }, this)
+          }, void 0, !1, {
+            fileName: "app/routes/index.jsx",
+            lineNumber: 188,
+            columnNumber: 7
+          }, this)
+        }, void 0, !1, {
+          fileName: "app/routes/index.jsx",
+          lineNumber: 187,
+          columnNumber: 3
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+          className: "bg-[#f8f9fa]",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+            className: " lg:max-w-[1140px] block m-auto",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+              className: "py-[100px] h-full ",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                  className: "text-center  text-[#999] ",
+                  children: "OUR"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 220,
+                  columnNumber: 11
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                  className: "text-2xl lg:text-4xl md:text-4xl mb-10 text-center  text-[#b52332]",
+                  children: "TESTIMONIALS"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 221,
+                  columnNumber: 11
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "container  m-auto my-5",
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                    className: "flex flex-col w-full p-5  ",
+                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_carousel.default, {
+                      autoplay: !0,
+                      className: "slider-container  ",
+                      children: details.map((items, ind) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                        className: "grid grid-cols-1  p-5  w-full  bg-[#fff] h-auto  rounded-lg ",
+                        children: [
+                          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                            className: "text-[#595959] text-sm mb-5  h-[150px] overflow-x-auto ",
+                            children: items.title
+                          }, void 0, !1, {
+                            fileName: "app/routes/index.jsx",
+                            lineNumber: 232,
+                            columnNumber: 25
+                          }, this),
+                          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                            className: "flex w-fit ",
+                            children: [
+                              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
+                                className: "mx-4 m-auto rounded-full mr-2",
+                                width: "80",
+                                height: "80",
+                                src: items.image,
+                                alt: "Weenggs Technology"
+                              }, void 0, !1, {
+                                fileName: "app/routes/index.jsx",
+                                lineNumber: 237,
+                                columnNumber: 24
+                              }, this),
+                              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                                className: "text-sm text-[#4169e2] m-auto p-2",
+                                children: [
+                                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                                    className: "",
+                                    children: items.name
+                                  }, void 0, !1, {
+                                    fileName: "app/routes/index.jsx",
+                                    lineNumber: 239,
+                                    columnNumber: 26
+                                  }, this),
+                                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
+                                    href: "https://hoaviol.com",
+                                    className: "flex-wrap",
+                                    children: items.link
+                                  }, void 0, !1, {
+                                    fileName: "app/routes/index.jsx",
+                                    lineNumber: 240,
+                                    columnNumber: 26
+                                  }, this)
+                                ]
+                              }, void 0, !0, {
+                                fileName: "app/routes/index.jsx",
+                                lineNumber: 238,
+                                columnNumber: 26
+                              }, this)
+                            ]
+                          }, void 0, !0, {
+                            fileName: "app/routes/index.jsx",
+                            lineNumber: 235,
+                            columnNumber: 24
+                          }, this)
+                        ]
+                      }, ind, !0, {
+                        fileName: "app/routes/index.jsx",
+                        lineNumber: 231,
+                        columnNumber: 24
+                      }, this))
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 227,
+                      columnNumber: 16
+                    }, this)
+                  }, void 0, !1, {
+                    fileName: "app/routes/index.jsx",
+                    lineNumber: 224,
+                    columnNumber: 10
+                  }, this)
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 222,
+                  columnNumber: 11
+                }, this)
+              ]
+            }, void 0, !0, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 219,
+              columnNumber: 9
+            }, this)
+          }, void 0, !1, {
+            fileName: "app/routes/index.jsx",
+            lineNumber: 218,
+            columnNumber: 7
+          }, this)
+        }, void 0, !1, {
+          fileName: "app/routes/index.jsx",
+          lineNumber: 217,
+          columnNumber: 4
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+          className: "bg-[#fff]",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+            className: "lg:max-w-[1140px] justify-center block m-auto md:my-[100px] ",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+              className: "lg:pt-30 pt-30 p-10 h-full ",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                  className: "text-center  text-[#999] ",
+                  children: "OUR"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 261,
+                  columnNumber: 6
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                  className: "text-2xl lg:text-4xl md:text-4xl text-center  text-[#b52332]",
+                  children: "CLIENTS"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 262,
+                  columnNumber: 6
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                  className: "text-center text-sm text-[#999] ",
+                  children: "Some of the many clients we've helped achieve great results"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 263,
+                  columnNumber: 6
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "container my-5 m-auto",
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                    className: "flex flex-col w-full h-fit",
+                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                      className: "slider-container max-w[1140px] ",
+                      children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_carousel.default, {
+                        wrapAround: !0,
+                        autoplay: !0,
+                        cellAlign: "center",
+                        children: client && client.map((citem, ind) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                          className: "h-auto   m-auto ",
+                          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
+                            className: " m-auto",
+                            src: citem,
+                            alt: "img-not-found"
+                          }, void 0, !1, {
+                            fileName: "app/routes/index.jsx",
+                            lineNumber: 272,
+                            columnNumber: 9
+                          }, this)
+                        }, ind, !1, {
+                          fileName: "app/routes/index.jsx",
+                          lineNumber: 270,
+                          columnNumber: 9
+                        }, this))
+                      }, void 0, !1, {
+                        fileName: "app/routes/index.jsx",
+                        lineNumber: 268,
+                        columnNumber: 8
+                      }, this)
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 266,
+                      columnNumber: 7
+                    }, this)
+                  }, void 0, !1, {
+                    fileName: "app/routes/index.jsx",
+                    lineNumber: 265,
+                    columnNumber: 6
+                  }, this)
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 264,
+                  columnNumber: 6
+                }, this)
+              ]
+            }, void 0, !0, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 260,
+              columnNumber: 6
+            }, this)
+          }, void 0, !1, {
+            fileName: "app/routes/index.jsx",
+            lineNumber: 259,
+            columnNumber: 5
+          }, this)
+        }, void 0, !1, {
+          fileName: "app/routes/index.jsx",
+          lineNumber: 258,
+          columnNumber: 4
         }, this)
-      }, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 206,
-        columnNumber: 4
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ImageViewer_default, {}, void 0, !1, {
-        fileName: "app/routes/index.jsx",
-        lineNumber: 237,
-        columnNumber: 2
-      }, this)
-    ]
-  }, void 0, !0, {
+      ]
+    }, void 0, !0, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 44,
+      columnNumber: 4
+    }, this)
+  }, void 0, !1, {
     fileName: "app/routes/index.jsx",
-    lineNumber: 32,
+    lineNumber: 40,
     columnNumber: 3
   }, this);
 }, routes_default = Index;
@@ -5770,7 +5910,7 @@ var import_react24 = require("react"), import_jsx_dev_runtime = require("react/j
 }, this), __default = PageNotFound;
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "78081b8a", entry: { module: "/build/entry.client-RFXFVDL5.js", imports: ["/build/_shared/chunk-WMFE6TZ5.js", "/build/_shared/chunk-ADNCORLJ.js", "/build/_shared/chunk-MLBUYSNZ.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MWPQHUNS.js", imports: ["/build/_shared/chunk-DZO7EO6M.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/$": { id: "routes/$", parentId: "root", path: "*", index: void 0, caseSensitive: void 0, module: "/build/routes/$-4ZLL2QRP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-6SFSQCMJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/careers": { id: "routes/careers", parentId: "root", path: "careers", index: void 0, caseSensitive: void 0, module: "/build/routes/careers-WAAMPSU5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact": { id: "routes/contact", parentId: "root", path: "contact", index: void 0, caseSensitive: void 0, module: "/build/routes/contact-ZO45CRTR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-KSH5KC33.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portfolio": { id: "routes/portfolio", parentId: "root", path: "portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portfolio-R6RJ7NOY.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/request-a-quote": { id: "routes/request-a-quote", parentId: "root", path: "request-a-quote", index: void 0, caseSensitive: void 0, module: "/build/routes/request-a-quote-DHMTIDGU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/android-app-development": { id: "routes/service/android-app-development", parentId: "root", path: "service/android-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/android-app-development-WCCYUI2X.js", imports: ["/build/_shared/chunk-P3GDYWRS.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/custom-web-development": { id: "routes/service/custom-web-development", parentId: "root", path: "service/custom-web-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/custom-web-development-LFCM2VLK.js", imports: ["/build/_shared/chunk-P3GDYWRS.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/desktop-app-development": { id: "routes/service/desktop-app-development", parentId: "root", path: "service/desktop-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/desktop-app-development-6MW5Z4VA.js", imports: ["/build/_shared/chunk-P3GDYWRS.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/index": { id: "routes/service/index", parentId: "root", path: "service", index: !0, caseSensitive: void 0, module: "/build/routes/service/index-7HIH3T7P.js", imports: ["/build/_shared/chunk-P3GDYWRS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/iphone-app-development": { id: "routes/service/iphone-app-development", parentId: "root", path: "service/iphone-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/iphone-app-development-DI3TDLXA.js", imports: ["/build/_shared/chunk-P3GDYWRS.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-78081B8A.js" };
+var assets_manifest_default = { version: "acb97fdd", entry: { module: "/build/entry.client-YDX3NPJS.js", imports: ["/build/_shared/chunk-WMFE6TZ5.js", "/build/_shared/chunk-TF2ZJQYU.js", "/build/_shared/chunk-E3ZBIYPI.js", "/build/_shared/chunk-MLBUYSNZ.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-NM6JFXCO.js", imports: ["/build/_shared/chunk-DZO7EO6M.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/$": { id: "routes/$", parentId: "root", path: "*", index: void 0, caseSensitive: void 0, module: "/build/routes/$-4ZLL2QRP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-6SFSQCMJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/careers": { id: "routes/careers", parentId: "root", path: "careers", index: void 0, caseSensitive: void 0, module: "/build/routes/careers-WAAMPSU5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact": { id: "routes/contact", parentId: "root", path: "contact", index: void 0, caseSensitive: void 0, module: "/build/routes/contact-ZO45CRTR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VFGBZY5Z.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portfolio": { id: "routes/portfolio", parentId: "root", path: "portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portfolio-S6XMKAA7.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/request-a-quote": { id: "routes/request-a-quote", parentId: "root", path: "request-a-quote", index: void 0, caseSensitive: void 0, module: "/build/routes/request-a-quote-DHMTIDGU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/android-app-development": { id: "routes/service/android-app-development", parentId: "root", path: "service/android-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/android-app-development-EKK76O6P.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/custom-web-development": { id: "routes/service/custom-web-development", parentId: "root", path: "service/custom-web-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/custom-web-development-LJU2GAXZ.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/desktop-app-development": { id: "routes/service/desktop-app-development", parentId: "root", path: "service/desktop-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/desktop-app-development-C7GNOQUM.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/index": { id: "routes/service/index", parentId: "root", path: "service", index: !0, caseSensitive: void 0, module: "/build/routes/service/index-MIJPJEA5.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/iphone-app-development": { id: "routes/service/iphone-app-development", parentId: "root", path: "service/iphone-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/iphone-app-development-DAHCH2CW.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-ACB97FDD.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

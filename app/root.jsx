@@ -21,6 +21,7 @@ export default function App() {
       <head>
         <Meta />
         <Links />
+
         {/* <script src="https://unpkg.com/prop-types@15.6/prop-types.js"></script> */}
          <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
         <script src="https://cdn.tailwindcss.com" defer></script>
@@ -35,7 +36,7 @@ export default function App() {
            
       </head>
       <body>
-        
+
         <Navbar />
         <Header />
         <ChatBoot />
@@ -44,6 +45,7 @@ export default function App() {
         <Scripts />
         <LiveReload />
         <Footer />
+
       </body>
     </html>
   );

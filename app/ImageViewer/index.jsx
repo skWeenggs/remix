@@ -1,7 +1,9 @@
 
 import React,{useState,useCallback} from 'react'
-// import ImageViewer from "react-simple-image-viewer";
+import ImageViewer from "react-simple-image-viewer";
+import Slider from '../content/imageview/index';
 import {data} from '../content/frame'
+
 const ImagePic = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
@@ -12,13 +14,14 @@ const ImagePic = () => {
   const unlockScroll = React.useCallback(async() => {
     document.body.style.overflow = '';
   }, [])
-    const openImageViewer =useCallback(async(index) => {
-      // setCurrentImage(index);
-      // setIsViewerOpen(true);
+    const openImageViewer =((index) => {
+      setCurrentImage(index);
+      console.log("call open" );
+      setIsViewerOpen(true);
       // lockScroll();
-    },[]);
+    });
   
-    const closeImageViewer = async() => {
+    const closeImageViewer = () => {
       unlockScroll();
       setCurrentImage(0);
       setIsViewerOpen(false);
@@ -40,29 +43,17 @@ const ImagePic = () => {
                         </div>    
               )})} 
 
-            {/* {isViewerOpen && (
-          <ImageViewer
-          
-          src={data}
-          currentIndex={currentImage}
-          onClose={closeImageViewer}
-          disableScroll={true}
-          backgroundStyle={{
-            zIndex:"1000",
-            width:"100%",
-            padding:"10%",
-            backgroundColor: "rgb(87 84 84 / 90%)"
-          }}
-          
-          closeOnClickOutside={true}
-        />
-      )} */}
+            {isViewerOpen && (
+              <Slider data={data} isViewerOpen={isViewerOpen} setIsViewerOpen={setIsViewerOpen} />
+       
+      )}
              </div>
         </div>
        
         </div>
        
       </section>
+    
       </div>
   )
 }

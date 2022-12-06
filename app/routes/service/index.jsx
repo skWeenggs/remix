@@ -13,6 +13,7 @@ const index = (props) => {
                         <div class='text-center mb-10  font-md text-sm lg:text-sm  text-[#cbcaca]  m-5' style={{letterSpacing:'2px'}}>
                         {props.description?.map((item)=><div>{item}</div>)}
                         </div>
+                       
                       </div>
                     </section>
                     </div>
