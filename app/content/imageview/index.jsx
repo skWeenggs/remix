@@ -1,13 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState,useCallback } from 'react'
 import Carousel from 'nuka-carousel';
 
-function Slider({ data,setOpen,index,open }) {
+function Slider({ data,setOpen,index,open,lock,setlock}) {
 
-console.log(index);
+
   const [current,setCurrent]=useState(index);
   const [images, setImages] = React.useState([])
+  
   const handleClose = () => {
-    setOpen(false);
+    setlock(!lock);
+    setOpen(!open);
+   
   }
 
 
@@ -75,13 +78,13 @@ console.log(index);
     //   </Carousel>
     // </div>
    
-    <div className="flex absolute h-screen w-screen bg-[#0004] z-50 justify-center items-center ">
-    <div className={" mr-4 bg-white rounded-3xl p-5 hidden lg:block"} onClick={prevSlide}>
+    <div className="flex top-0 p-5 absolute h-screen max-w-screen bg-[#0004] z-50 justify-center items-center ">
+    <div className={"md:mr-4  bg-white rounded-3xl md:p-5  cursor-pointer block"} onClick={prevSlide}>
        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" className='h-6 w-6  text-black'>
            <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
        </svg>
    </div>
-   <div className={"absolute mr-4 top-0 right-0 rounded-3xl p-5 hidden lg:block"} onClick={()=>setOpen(!open)}>
+   <div className={"absolute mr-4  top-0 right-0 rounded-3xl cursor-pointer md:p-5 bg-gray-500 hover:bg-gray-600  lg:block"} onClick={handleClose}>
    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
    </svg>
@@ -90,12 +93,12 @@ console.log(index);
        return (
            <>
                {index === current && (
-                   <img src={slide} alt='travel image' className={'h-screen w-full'} />
+                   <img src={slide} alt='travel image' className={'sm:max-h-screen md:h-screen sm:max-w-screen  w-screen'} />
                )}
            </>
        );
    })}
-   <div className={"ml-4 bg-white rounded-3xl p-5 hidden lg:block"} onClick={nextSlide}>
+   <div className={"md:ml-4   bg-white rounded-2xl md:p-5 cursor-pointer md:block "} onClick={nextSlide}>
        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" className='h-6 w-6 text-black '  >
            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
        </svg>

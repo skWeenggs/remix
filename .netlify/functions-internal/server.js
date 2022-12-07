@@ -1633,7 +1633,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
 }, chatbot_default = ChatBoot;
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-BFXTBKPY.css";
+var tailwind_default = "/build/_assets/tailwind-NAVO2BBJ.css";
 
 // app/root.jsx
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime");
@@ -4741,20 +4741,19 @@ var import_carousel = __toESM(require("nuka-carousel/lib/carousel"));
 
 // app/content/imageview/index.jsx
 var import_react21 = __toESM(require("react")), import_nuka_carousel = require("nuka-carousel"), import_jsx_dev_runtime = require("react/jsx-dev-runtime");
-function Slider({ data: data3, setOpen, index: index2, open }) {
-  console.log(index2);
+function Slider({ data: data3, setOpen, index: index2, open, lock, setlock }) {
   let [current, setCurrent] = (0, import_react21.useState)(index2), [images, setImages] = import_react21.default.useState([]), handleClose = () => {
-    setOpen(!1);
+    setlock(!lock), setOpen(!open);
   }, length = data3.length, nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
   }, prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
   return !Array.isArray(data3) || data3.length <= 0 ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-    className: "flex absolute h-screen w-screen bg-[#0004] z-50 justify-center items-center ",
+    className: "flex top-0 p-5 absolute h-screen max-w-screen bg-[#0004] z-50 justify-center items-center ",
     children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: " mr-4 bg-white rounded-3xl p-5 hidden lg:block",
+        className: "md:mr-4  bg-white rounded-3xl md:p-5  cursor-pointer block",
         onClick: prevSlide,
         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
@@ -4769,22 +4768,22 @@ function Slider({ data: data3, setOpen, index: index2, open }) {
             d: "M10 19l-7-7m0 0l7-7m-7 7h18"
           }, void 0, !1, {
             fileName: "app/content/imageview/index.jsx",
-            lineNumber: 81,
+            lineNumber: 84,
             columnNumber: 12
           }, this)
         }, void 0, !1, {
           fileName: "app/content/imageview/index.jsx",
-          lineNumber: 80,
+          lineNumber: 83,
           columnNumber: 8
         }, this)
       }, void 0, !1, {
         fileName: "app/content/imageview/index.jsx",
-        lineNumber: 79,
+        lineNumber: 82,
         columnNumber: 5
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "absolute mr-4 top-0 right-0 rounded-3xl p-5 hidden lg:block",
-        onClick: () => setOpen(!open),
+        className: "absolute mr-4  top-0 right-0 rounded-3xl cursor-pointer md:p-5 bg-gray-500 hover:bg-gray-600  lg:block",
+        onClick: handleClose,
         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
           class: "h-6 w-6 text-gray",
@@ -4798,36 +4797,36 @@ function Slider({ data: data3, setOpen, index: index2, open }) {
             d: "M6 18L18 6M6 6l12 12"
           }, void 0, !1, {
             fileName: "app/content/imageview/index.jsx",
-            lineNumber: 86,
+            lineNumber: 89,
             columnNumber: 4
           }, this)
         }, void 0, !1, {
           fileName: "app/content/imageview/index.jsx",
-          lineNumber: 85,
+          lineNumber: 88,
           columnNumber: 4
         }, this)
       }, void 0, !1, {
         fileName: "app/content/imageview/index.jsx",
-        lineNumber: 84,
+        lineNumber: 87,
         columnNumber: 4
       }, this),
       data3.map((slide, index3) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
         children: index3 === current && /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
           src: slide,
           alt: "travel image",
-          className: "h-screen w-full"
+          className: "sm:max-h-screen md:h-screen sm:max-w-screen  w-screen"
         }, void 0, !1, {
           fileName: "app/content/imageview/index.jsx",
-          lineNumber: 93,
+          lineNumber: 96,
           columnNumber: 20
         }, this)
       }, void 0, !1, {
         fileName: "app/content/imageview/index.jsx",
-        lineNumber: 91,
+        lineNumber: 94,
         columnNumber: 12
       }, this)),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "ml-4 bg-white rounded-3xl p-5 hidden lg:block",
+        className: "md:ml-4   bg-white rounded-2xl md:p-5 cursor-pointer md:block ",
         onClick: nextSlide,
         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
@@ -4842,23 +4841,23 @@ function Slider({ data: data3, setOpen, index: index2, open }) {
             d: "M14 5l7 7m0 0l-7 7m7-7H3"
           }, void 0, !1, {
             fileName: "app/content/imageview/index.jsx",
-            lineNumber: 100,
+            lineNumber: 103,
             columnNumber: 12
           }, this)
         }, void 0, !1, {
           fileName: "app/content/imageview/index.jsx",
-          lineNumber: 99,
+          lineNumber: 102,
           columnNumber: 8
         }, this)
       }, void 0, !1, {
         fileName: "app/content/imageview/index.jsx",
-        lineNumber: 98,
+        lineNumber: 101,
         columnNumber: 4
       }, this)
     ]
   }, void 0, !0, {
     fileName: "app/content/imageview/index.jsx",
-    lineNumber: 78,
+    lineNumber: 81,
     columnNumber: 5
   }, this);
 }
@@ -4945,44 +4944,52 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ProgressLine = ({
 }, ProgressLine_default = ProgressLine;
 
 // app/routes/index.jsx
-var import_react_simple_image_viewer = require("react-simple-image-viewer"), import_react_full_screen = require("react-full-screen"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
-  let [open, setOpen] = (0, import_react23.useState)(!1), [index2, setIndex] = (0, import_react23.useState)(0), imageClick = (index3) => {
-    setOpen(!0), setIndex(index3);
-  }, [currentImage, setCurrentImage] = (0, import_react23.useState)(0), [isViewerOpen, setIsViewerOpen] = (0, import_react23.useState)(!1), openImageViewer = (0, import_react23.useCallback)((index3) => {
-    setCurrentImage(index3), setIsViewerOpen(!0);
-  }, []), closeImageViewer = () => {
-    setCurrentImage(0), setIsViewerOpen(!1);
+var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
+  let [open, setOpen] = (0, import_react23.useState)(!1), [lock, setlock] = (0, import_react23.useState)(!1), [index2, setIndex] = (0, import_react23.useState)(0), imageClick = (index3) => {
+    setlock(!0), scrollToTop(), setOpen(!0), setIndex(index3);
   };
-  return (0, import_react23.useEffect)(() => {
+  (0, import_react23.useEffect)(() => {
+    lock ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+  }, [lock]), (0, import_react23.useEffect)(() => {
     document.title = "Weenggs Technology";
-  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
+  }, []);
+  let scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+    className: "min-h-[calc(100vh-110px)]",
     children: open ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(imageview_default, {
       data: data2,
       setOpen,
       index: index2,
-      open
+      open,
+      lock,
+      setlock
     }, void 0, !1, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 42,
+      lineNumber: 48,
       columnNumber: 3
     }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
       children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-          class: "h-screen w-full inline-grid bg-no-repeat bg-center bg-cover bg-[url('https://www.weenggs.com/wp-content/uploads/2019/08/bg.jpg')]",
+          className: "max-h-screen w-full inline-grid bg-no-repeat bg-center bg-cover bg-[url('https://www.weenggs.com/wp-content/uploads/2019/08/bg.jpg')]",
           children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-              class: "bg-[#060606] opacity-70  flex",
+              className: "bg-[#060606] opacity-70  flex",
               children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-                className: "h-[100vh] justify-center items-center lg:max-h-[100vh] p-4 lg:max-w-[1140px] flex m-auto",
+                className: "h-[100vh] justify-center items-center  max-w-[1140px] flex m-auto",
                 children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  className: " text-center flex-col justify-center",
+                  className: " text-center  ",
                   children: [
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                      className: "text-2xl font-sans lg:text-4xl md:text-4xl mb-10 xl:text-xl   text-[#ffffff]",
+                      className: "text-2xl font-sans lg:text-4xl md:text-4xl mb-10 xl:text-4xl 2xl:text-4xl  text-[#ffffff]",
                       children: "The epicenter where latest technology meets creativity!"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 51,
+                      lineNumber: 58,
                       columnNumber: 13
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -4992,50 +4999,50 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                           children: "A team of professionals that help you nurture & grow your business!"
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 53,
+                          lineNumber: 60,
                           columnNumber: 15
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                           children: "Design & Develop Stunning Websites"
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 54,
+                          lineNumber: 61,
                           columnNumber: 15
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                           children: "Code some Kick-ass Mobile Applications"
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 55,
+                          lineNumber: 62,
                           columnNumber: 15
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                           children: "Provide 24/7 Customer Service"
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 56,
+                          lineNumber: 63,
                           columnNumber: 15
                         }, this)
                       ]
                     }, void 0, !0, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 52,
+                      lineNumber: 59,
                       columnNumber: 13
                     }, this)
                   ]
                 }, void 0, !0, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 50,
+                  lineNumber: 57,
                   columnNumber: 11
                 }, this)
               }, void 0, !1, {
                 fileName: "app/routes/index.jsx",
-                lineNumber: 49,
+                lineNumber: 56,
                 columnNumber: 3
               }, this)
             }, void 0, !1, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 48,
+              lineNumber: 55,
               columnNumber: 8
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
@@ -5046,18 +5053,18 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                 children: "LET'S GET STARTED"
               }, void 0, !1, {
                 fileName: "app/routes/index.jsx",
-                lineNumber: 67,
+                lineNumber: 69,
                 columnNumber: 15
               }, this)
             }, void 0, !1, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 66,
+              lineNumber: 68,
               columnNumber: 3
             }, this)
           ]
         }, void 0, !0, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 47,
+          lineNumber: 54,
           columnNumber: 4
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5072,7 +5079,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                   children: "YOUR NOT-SO-AVERAGE"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 76,
+                  lineNumber: 78,
                   columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
@@ -5080,7 +5087,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                   children: "MOBILE APPS AND WEBSITE DEVELOPERS"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 77,
+                  lineNumber: 79,
                   columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5088,7 +5095,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                   children: "Inspired by art and technology, we integrate designs and smart development to create some of the most user-centric websites and mobile applications. We are all about bringing your unique ideas to life and delivering success."
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 78,
+                  lineNumber: 80,
                   columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5109,12 +5116,12 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                             alt: "Weenggs Technology"
                           }, void 0, !1, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 89,
+                            lineNumber: 91,
                             columnNumber: 7
                           }, this)
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 88,
+                          lineNumber: 90,
                           columnNumber: 7
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
@@ -5122,7 +5129,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                           children: list.name
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 91,
+                          lineNumber: 93,
                           columnNumber: 8
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
@@ -5133,39 +5140,39 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                           ]
                         }, void 0, !0, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 92,
+                          lineNumber: 94,
                           columnNumber: 8
                         }, this)
                       ]
                     }, index3, !0, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 86,
+                      lineNumber: 88,
                       columnNumber: 7
                     }, this))
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 83,
+                    lineNumber: 85,
                     columnNumber: 6
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 82,
+                  lineNumber: 84,
                   columnNumber: 4
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 75,
+              lineNumber: 77,
               columnNumber: 5
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 74,
+            lineNumber: 76,
             columnNumber: 3
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 73,
+          lineNumber: 75,
           columnNumber: 4
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5180,7 +5187,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                   children: "THE PERFECT BLEND OF"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 105,
+                  lineNumber: 107,
                   columnNumber: 5
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
@@ -5188,7 +5195,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                   children: "CREATIVE-PROWESS, TECHNOLOGY AND EXTRAORDINARY SERVICE!"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 106,
+                  lineNumber: 108,
                   columnNumber: 5
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5198,12 +5205,12 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                     children: "We are a team of experienced strategists, designers, developers and project managers. With get shit done attitude, we can accomplish any challenge out there Our in-depth understanding of futuristic technology is what brought us together and it\u2019s what keeps us moving forward. Leaving the extra-mile way behind, we happen to offer exceptional services to all our clients, including web development, mobile app development, UX design and more."
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 108,
+                    lineNumber: 110,
                     columnNumber: 7
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 107,
+                  lineNumber: 109,
                   columnNumber: 5
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5215,33 +5222,33 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                       children: "TELL US WHAT YOU NEED AND WE WILL MAKE THE MAGIC HAPPEN!"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 113,
+                      lineNumber: 115,
                       columnNumber: 6
                     }, this)
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 112,
+                    lineNumber: 114,
                     columnNumber: 6
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 111,
+                  lineNumber: 113,
                   columnNumber: 5
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 104,
+              lineNumber: 106,
               columnNumber: 6
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 103,
+            lineNumber: 105,
             columnNumber: 4
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 102,
+          lineNumber: 104,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5259,16 +5266,16 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                       children: "REASONS WHY TOP BRANDS"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 127,
-                      columnNumber: 7
+                      lineNumber: 129,
+                      columnNumber: 5
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
                       className: "text-[#bf1e2e] lg:text-4xl md:text-2xl font-bold mb-5",
                       children: "CHOOSE US!"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 128,
-                      columnNumber: 7
+                      lineNumber: 130,
+                      columnNumber: 5
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", {
                       className: "py-5",
@@ -5280,8 +5287,8 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                             children: "\uF087"
                           }, void 0, !1, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 134,
-                            columnNumber: 7
+                            lineNumber: 136,
+                            columnNumber: 6
                           }, this),
                           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                             className: "ml-1",
@@ -5291,39 +5298,39 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                                 children: listdata.heading
                               }, void 0, !1, {
                                 fileName: "app/routes/index.jsx",
-                                lineNumber: 136,
-                                columnNumber: 7
+                                lineNumber: 138,
+                                columnNumber: 6
                               }, this),
                               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
                                 className: "m-auto text-gray-500 text-sm",
                                 children: listdata.desc
                               }, void 0, !1, {
                                 fileName: "app/routes/index.jsx",
-                                lineNumber: 137,
-                                columnNumber: 7
+                                lineNumber: 139,
+                                columnNumber: 6
                               }, this)
                             ]
                           }, void 0, !0, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 135,
-                            columnNumber: 7
+                            lineNumber: 137,
+                            columnNumber: 6
                           }, this)
                         ]
                       }, index3, !0, {
                         fileName: "app/routes/index.jsx",
-                        lineNumber: 133,
-                        columnNumber: 7
+                        lineNumber: 135,
+                        columnNumber: 6
                       }, this))
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 130,
-                      columnNumber: 7
+                      lineNumber: 132,
+                      columnNumber: 5
                     }, this)
                   ]
                 }, void 0, !0, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 126,
-                  columnNumber: 6
+                  lineNumber: 128,
+                  columnNumber: 5
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                   className: "lg:pt-20  pt-5 px-5 lg:w-3/6 md:w-3/6 p-20 ",
@@ -5333,120 +5340,114 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                     alt: "logo"
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 145,
-                    columnNumber: 7
+                    lineNumber: 147,
+                    columnNumber: 5
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 144,
-                  columnNumber: 6
+                  lineNumber: 146,
+                  columnNumber: 5
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 125,
+              lineNumber: 127,
               columnNumber: 5
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 124,
-            columnNumber: 4
+            lineNumber: 126,
+            columnNumber: 5
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 123,
+          lineNumber: 125,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-            className: "bg-[#f8f9fa]",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-              className: " lg:w-full block m-auto ",
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "py-20 h-full ",
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                    className: "text-center  text-[#999] ",
-                    children: "OUR"
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 157,
-                    columnNumber: 11
-                  }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                    className: "text-2xl lg:text-5xl md:text-5xl mb-10 text-center  text-[#b52332]",
-                    children: "Work"
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 158,
-                    columnNumber: 11
-                  }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    className: "container  m-auto my-5",
-                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                      className: "grid lg:grid-cols-3 md:grid-cols-2 lg:w-[990px] m-auto ",
-                      children: data2.map((item, index3) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
-                        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                          className: "rounded-lg ",
-                          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
-                            className: " h-[20px] mb-5 lg:hover:animate-bounce",
-                            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
-                              className: " ",
-                              width: "auto",
-                              height: "auto",
-                              src: item,
-                              onClick: () => imageClick(index3),
-                              alt: "Weenggs Technology"
-                            }, void 0, !1, {
-                              fileName: "app/routes/index.jsx",
-                              lineNumber: 167,
-                              columnNumber: 25
-                            }, this)
+          className: "bg-[#f8f9fa]",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+            className: " lg:w-full block m-auto ",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+              className: "py-20 h-full ",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                  className: "text-center  text-[#999] ",
+                  children: "OUR"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 159,
+                  columnNumber: 4
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                  className: "text-2xl lg:text-5xl md:text-5xl mb-10 text-center  text-[#b52332]",
+                  children: "Work"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 160,
+                  columnNumber: 4
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "container  m-auto my-5",
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                    className: "grid lg:grid-cols-3 md:grid-cols-2 lg:w-[990px] m-auto ",
+                    children: data2.map((item, index3) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
+                      children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                        className: "rounded-lg ",
+                        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
+                          className: " h-[20px] mb-5 lg:hover:animate-bounce",
+                          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
+                            className: " ",
+                            width: "auto",
+                            height: "auto",
+                            src: item,
+                            onClick: () => imageClick(index3),
+                            alt: "Weenggs Technology"
                           }, void 0, !1, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 166,
-                            columnNumber: 26
+                            lineNumber: 169,
+                            columnNumber: 8
                           }, this)
-                        }, index3, !1, {
+                        }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 165,
-                          columnNumber: 25
+                          lineNumber: 168,
+                          columnNumber: 8
                         }, this)
-                      }, void 0, !1, {
+                      }, index3, !1, {
                         fileName: "app/routes/index.jsx",
-                        lineNumber: 164,
-                        columnNumber: 7
-                      }, this))
+                        lineNumber: 167,
+                        columnNumber: 8
+                      }, this)
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 161,
-                      columnNumber: 11
-                    }, this)
+                      lineNumber: 166,
+                      columnNumber: 6
+                    }, this))
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 160,
-                    columnNumber: 11
+                    lineNumber: 163,
+                    columnNumber: 4
                   }, this)
-                ]
-              }, void 0, !0, {
-                fileName: "app/routes/index.jsx",
-                lineNumber: 156,
-                columnNumber: 9
-              }, this)
-            }, void 0, !1, {
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 162,
+                  columnNumber: 4
+                }, this)
+              ]
+            }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 155,
-              columnNumber: 7
+              lineNumber: 158,
+              columnNumber: 4
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 153,
-            columnNumber: 2
+            lineNumber: 157,
+            columnNumber: 3
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 150,
-          columnNumber: 2
+          lineNumber: 155,
+          columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
           className: "bg-[#fff]",
@@ -5464,7 +5465,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
                       lineNumber: 191,
-                      columnNumber: 10
+                      columnNumber: 4
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
                       className: "text-[#bf1e2e] lg:font-weight:600; lg:text-4xl md:text-2xl mb-5 ",
@@ -5472,7 +5473,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
                       lineNumber: 192,
-                      columnNumber: 10
+                      columnNumber: 4
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                       className: "py-5",
@@ -5487,18 +5488,18 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                       }, ind, !1, {
                         fileName: "app/routes/index.jsx",
                         lineNumber: 195,
-                        columnNumber: 17
+                        columnNumber: 6
                       }, this))
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
                       lineNumber: 193,
-                      columnNumber: 9
+                      columnNumber: 4
                     }, this)
                   ]
                 }, void 0, !0, {
                   fileName: "app/routes/index.jsx",
                   lineNumber: 190,
-                  columnNumber: 9
+                  columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                   className: "lg:pt-36 hidden md:block text-center py-20 lg:full md:w-3/6 ",
@@ -5509,23 +5510,23 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
                     lineNumber: 211,
-                    columnNumber: 11
+                    columnNumber: 4
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
                   lineNumber: 210,
-                  columnNumber: 9
+                  columnNumber: 4
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
               lineNumber: 189,
-              columnNumber: 8
+              columnNumber: 3
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
             lineNumber: 188,
-            columnNumber: 7
+            columnNumber: 3
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
@@ -5545,7 +5546,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
                   lineNumber: 220,
-                  columnNumber: 11
+                  columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
                   className: "text-2xl lg:text-4xl md:text-4xl mb-10 text-center  text-[#b52332]",
@@ -5553,7 +5554,7 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
                   lineNumber: 221,
-                  columnNumber: 11
+                  columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                   className: "container  m-auto my-5",
@@ -5570,8 +5571,8 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                             children: items.title
                           }, void 0, !1, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 232,
-                            columnNumber: 25
+                            lineNumber: 231,
+                            columnNumber: 8
                           }, this),
                           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                             className: "flex w-fit ",
@@ -5584,8 +5585,8 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                                 alt: "Weenggs Technology"
                               }, void 0, !1, {
                                 fileName: "app/routes/index.jsx",
-                                lineNumber: 237,
-                                columnNumber: 24
+                                lineNumber: 236,
+                                columnNumber: 7
                               }, this),
                               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                                 className: "text-sm text-[#4169e2] m-auto p-2",
@@ -5595,8 +5596,8 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                                     children: items.name
                                   }, void 0, !1, {
                                     fileName: "app/routes/index.jsx",
-                                    lineNumber: 239,
-                                    columnNumber: 26
+                                    lineNumber: 238,
+                                    columnNumber: 8
                                   }, this),
                                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
                                     href: "https://hoaviol.com",
@@ -5604,57 +5605,57 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                                     children: items.link
                                   }, void 0, !1, {
                                     fileName: "app/routes/index.jsx",
-                                    lineNumber: 240,
-                                    columnNumber: 26
+                                    lineNumber: 239,
+                                    columnNumber: 8
                                   }, this)
                                 ]
                               }, void 0, !0, {
                                 fileName: "app/routes/index.jsx",
-                                lineNumber: 238,
-                                columnNumber: 26
+                                lineNumber: 237,
+                                columnNumber: 8
                               }, this)
                             ]
                           }, void 0, !0, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 235,
-                            columnNumber: 24
+                            lineNumber: 234,
+                            columnNumber: 7
                           }, this)
                         ]
                       }, ind, !0, {
                         fileName: "app/routes/index.jsx",
-                        lineNumber: 231,
-                        columnNumber: 24
+                        lineNumber: 230,
+                        columnNumber: 7
                       }, this))
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 227,
-                      columnNumber: 16
+                      lineNumber: 226,
+                      columnNumber: 7
                     }, this)
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
                     lineNumber: 224,
-                    columnNumber: 10
+                    columnNumber: 4
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
                   lineNumber: 222,
-                  columnNumber: 11
+                  columnNumber: 4
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
               lineNumber: 219,
-              columnNumber: 9
+              columnNumber: 4
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
             lineNumber: 218,
-            columnNumber: 7
+            columnNumber: 3
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
           lineNumber: 217,
-          columnNumber: 4
+          columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
           className: "bg-[#fff]",
@@ -5668,24 +5669,24 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                   children: "OUR"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 261,
-                  columnNumber: 6
+                  lineNumber: 260,
+                  columnNumber: 7
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
                   className: "text-2xl lg:text-4xl md:text-4xl text-center  text-[#b52332]",
                   children: "CLIENTS"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 262,
-                  columnNumber: 6
+                  lineNumber: 261,
+                  columnNumber: 7
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
                   className: "text-center text-sm text-[#999] ",
                   children: "Some of the many clients we've helped achieve great results"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 263,
-                  columnNumber: 6
+                  lineNumber: 262,
+                  columnNumber: 7
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                   className: "container my-5 m-auto",
@@ -5705,59 +5706,59 @@ var import_react_simple_image_viewer = require("react-simple-image-viewer"), imp
                             alt: "img-not-found"
                           }, void 0, !1, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 272,
-                            columnNumber: 9
+                            lineNumber: 271,
+                            columnNumber: 10
                           }, this)
                         }, ind, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 270,
-                          columnNumber: 9
+                          lineNumber: 269,
+                          columnNumber: 10
                         }, this))
                       }, void 0, !1, {
                         fileName: "app/routes/index.jsx",
-                        lineNumber: 268,
-                        columnNumber: 8
+                        lineNumber: 267,
+                        columnNumber: 9
                       }, this)
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 266,
-                      columnNumber: 7
+                      lineNumber: 265,
+                      columnNumber: 8
                     }, this)
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 265,
-                    columnNumber: 6
+                    lineNumber: 264,
+                    columnNumber: 7
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 264,
-                  columnNumber: 6
+                  lineNumber: 263,
+                  columnNumber: 7
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 260,
-              columnNumber: 6
+              lineNumber: 259,
+              columnNumber: 7
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 259,
-            columnNumber: 5
+            lineNumber: 258,
+            columnNumber: 6
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 258,
-          columnNumber: 4
+          lineNumber: 257,
+          columnNumber: 3
         }, this)
       ]
     }, void 0, !0, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 44,
-      columnNumber: 4
+      lineNumber: 50,
+      columnNumber: 3
     }, this)
   }, void 0, !1, {
     fileName: "app/routes/index.jsx",
-    lineNumber: 40,
+    lineNumber: 44,
     columnNumber: 3
   }, this);
 }, routes_default = Index;
@@ -5910,7 +5911,7 @@ var import_react24 = require("react"), import_jsx_dev_runtime = require("react/j
 }, this), __default = PageNotFound;
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "acb97fdd", entry: { module: "/build/entry.client-YDX3NPJS.js", imports: ["/build/_shared/chunk-WMFE6TZ5.js", "/build/_shared/chunk-TF2ZJQYU.js", "/build/_shared/chunk-E3ZBIYPI.js", "/build/_shared/chunk-MLBUYSNZ.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-NM6JFXCO.js", imports: ["/build/_shared/chunk-DZO7EO6M.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/$": { id: "routes/$", parentId: "root", path: "*", index: void 0, caseSensitive: void 0, module: "/build/routes/$-4ZLL2QRP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-6SFSQCMJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/careers": { id: "routes/careers", parentId: "root", path: "careers", index: void 0, caseSensitive: void 0, module: "/build/routes/careers-WAAMPSU5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact": { id: "routes/contact", parentId: "root", path: "contact", index: void 0, caseSensitive: void 0, module: "/build/routes/contact-ZO45CRTR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VFGBZY5Z.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portfolio": { id: "routes/portfolio", parentId: "root", path: "portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portfolio-S6XMKAA7.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/request-a-quote": { id: "routes/request-a-quote", parentId: "root", path: "request-a-quote", index: void 0, caseSensitive: void 0, module: "/build/routes/request-a-quote-DHMTIDGU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/android-app-development": { id: "routes/service/android-app-development", parentId: "root", path: "service/android-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/android-app-development-EKK76O6P.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/custom-web-development": { id: "routes/service/custom-web-development", parentId: "root", path: "service/custom-web-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/custom-web-development-LJU2GAXZ.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/desktop-app-development": { id: "routes/service/desktop-app-development", parentId: "root", path: "service/desktop-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/desktop-app-development-C7GNOQUM.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/index": { id: "routes/service/index", parentId: "root", path: "service", index: !0, caseSensitive: void 0, module: "/build/routes/service/index-MIJPJEA5.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/iphone-app-development": { id: "routes/service/iphone-app-development", parentId: "root", path: "service/iphone-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/iphone-app-development-DAHCH2CW.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-ACB97FDD.js" };
+var assets_manifest_default = { version: "4ffc143e", entry: { module: "/build/entry.client-YDX3NPJS.js", imports: ["/build/_shared/chunk-WMFE6TZ5.js", "/build/_shared/chunk-TF2ZJQYU.js", "/build/_shared/chunk-E3ZBIYPI.js", "/build/_shared/chunk-MLBUYSNZ.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ALC36ATJ.js", imports: ["/build/_shared/chunk-DZO7EO6M.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/$": { id: "routes/$", parentId: "root", path: "*", index: void 0, caseSensitive: void 0, module: "/build/routes/$-4ZLL2QRP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-6SFSQCMJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/careers": { id: "routes/careers", parentId: "root", path: "careers", index: void 0, caseSensitive: void 0, module: "/build/routes/careers-WAAMPSU5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact": { id: "routes/contact", parentId: "root", path: "contact", index: void 0, caseSensitive: void 0, module: "/build/routes/contact-ZO45CRTR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-T2HT3SHK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portfolio": { id: "routes/portfolio", parentId: "root", path: "portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portfolio-S6XMKAA7.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/request-a-quote": { id: "routes/request-a-quote", parentId: "root", path: "request-a-quote", index: void 0, caseSensitive: void 0, module: "/build/routes/request-a-quote-DHMTIDGU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/android-app-development": { id: "routes/service/android-app-development", parentId: "root", path: "service/android-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/android-app-development-EKK76O6P.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/custom-web-development": { id: "routes/service/custom-web-development", parentId: "root", path: "service/custom-web-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/custom-web-development-LJU2GAXZ.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/desktop-app-development": { id: "routes/service/desktop-app-development", parentId: "root", path: "service/desktop-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/desktop-app-development-C7GNOQUM.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/index": { id: "routes/service/index", parentId: "root", path: "service", index: !0, caseSensitive: void 0, module: "/build/routes/service/index-MIJPJEA5.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/iphone-app-development": { id: "routes/service/iphone-app-development", parentId: "root", path: "service/iphone-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/iphone-app-development-DAHCH2CW.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-4FFC143E.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
