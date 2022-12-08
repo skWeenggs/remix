@@ -11,5 +11,7 @@ module.exports = {
 			'portfolio':"url('https://www.weenggs.com/wp-content/uploads/2019/01/cta1.jpg')" 
 		  },
   },
-  plugins: [],
+  plugins: [
+   
+  ],
 }

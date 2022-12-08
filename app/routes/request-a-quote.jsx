@@ -79,8 +79,8 @@ const RequestQuote = () => {
                 <div class='flex md:bg-[#060606] opacity-80'>
                 <section class='lg:h-[320px]  lg:max-w-[990px] block m-auto'>
                   <div class='lg:h-[320px] m-auto flex text-center flex-col justify-center'>
-                    <h1 class='text-2xl pt-10 lg:text-5xl md:text-5xl  text-center font-bold text-[#ffffff] z-30'>Request a Quote</h1>
-                    <div class='text-center mb-10 font-sm text-xs  uppercase text-[#191919]  m-5' style={{letterSpacing:'5px'}}>
+                    <h1 class='text-2xl pt-10 lg:text-5xl md:text-5xl  text-center 2xl:text-5xl font-bold text-[#ffffff] z-30'>Request a Quote</h1>
+                    <div class='text-center mb-10 font-sm text-xs  uppercase text-[#fff] 2xl:text-md  m-5' style={{letterSpacing:'5px'}}>
                     FILL THE FORM BELOW
                     </div>
                    
@@ -97,51 +97,51 @@ const RequestQuote = () => {
            <div className='lg:pt-10 md:w-full flex flex-col lg:max-w-[1140px] lg:items-center'>
            
             <form class="w-full contents text-sm" method="post" onSubmit={handleSubmit}>
-                <div class=" text-start flex flex-col lg:w-3/6 md:items-center mb-2 px-10">
+                <div class=" text-start flex flex-col lg:w-3/6 2xl:w-5/6  md:items-center mb-2 px-10">
                     <div class="text-start  md:w-2/3 pb-2">
-                    <label class="flex text-start text-gray-500 text-sm  md:text-right mb-1 md:mb-0 pr-4" >
+                    <label class="flex text-start text-gray-500 text-sm 2xl:text-2xl md:text-right mb-1 md:mb-0 pr-4" >
                         Your Name (required)
                     </label>
                     </div>
                     <div class="md:w-2/3">
-                    <input class=" appearance-none border border-gray-200 rounded w-full text-sm p-2.5 leading-8   focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2"  id="name" type="text" name={name} onChange={(e)=>{setName(e.target.value)}} />
+                    <input class=" appearance-none border border-gray-200 rounded w-full md:text-md 2xl:text-xl text-sm p-2.5 leading-8   focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2"  id="name" type="text" name={name} onChange={(e)=>{setName(e.target.value)}} />
                     <div style={{color:'red'}} id="name-error" class="error"></div>
                     </div>
                 </div>
-                <div class="text-start flex flex-col lg:w-3/6 md:items-center mb-2 px-10">
+                <div class="text-start flex flex-col lg:w-3/6 2xl:w-5/6  md:items-center mb-2 px-10">
                     <div class="text-start  md:w-2/3 pb-2">
-                    <label class="flex text-start text-sm  text-gray-500  md:text-right mb-1 md:mb-0 pr-4" >
+                    <label class="flex text-start text-sm  text-gray-500  2xl:text-2xl md:text-right mb-1 md:mb-0 pr-4" >
                         Your Email (required)
                     </label>
                     </div>
                     <div class="md:w-2/3">
-                    <input class=" appearance-none border border-gray-200 rounded w-full text-sm p-2.5 leading-8 focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2" id="email" type="text" name={email}  onChange={(e)=>{setEmail(e.target.value)}} />
+                    <input class=" appearance-none border border-gray-200 rounded w-full  2xl:text-xl text-sm p-2.5 leading-8 focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2" id="email" type="text" name={email}  onChange={(e)=>{setEmail(e.target.value)}} />
                     <div style={{color:'red'}} id="email-error" class="error"></div>
                     </div>
                 </div>
-                <div class="text-start flex flex-col lg:w-3/6 md:items-center mb-2 px-10">
+                <div class="text-start flex flex-col lg:w-3/6 2xl:w-5/6  md:items-center mb-2 px-10">
                     <div class="text-start  md:w-2/3 pb-2">
-                    <label class="text-start flex text-sm  text-gray-500  md:text-right mb-1 md:mb-0 pr-4" >
+                    <label class="text-start flex text-sm  text-gray-500  2xl:text-2xl md:text-right mb-1 md:mb-0 pr-4" >
                         Subject
                     </label>
                     </div>
                     <div class="md:w-2/3">
-                    <input class=" appearance-none border border-gray-200 rounded block text-sm  w-full p-2.5  leading-8 focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2" id="subject" type="text" name={subject}  onChange={(e)=>{setSubject(e.target.value)}}/>
+                    <input class=" appearance-none border border-gray-200 rounded block text-sm  2xl:text-xl w-full p-2.5  leading-8 focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2" id="subject" type="text" name={subject}  onChange={(e)=>{setSubject(e.target.value)}}/>
                     </div>
                 </div>
-                <div class="text-start flex flex-col lg:w-3/6 md:items-center mb-2 px-10">
+                <div class="text-start flex flex-col lg:w-3/6 2xl:w-5/6  md:items-center mb-2 px-10">
                     <div class="text-start  md:w-2/3 pb-2">
-                    <label class="block text-gray-500 text-sm  md:text-start mb-1 md:mb-0 pr-4" >
+                    <label class="block text-gray-500 text-sm  2xl:text-2xl md:text-start mb-1 md:mb-0 pr-4" >
                         Your Massage
                     </label>
                     </div>
                     <div class="md:w-2/3">
-                        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm leading-8 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 focus:border-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name={massage} onChange={(e)=>{setMassage(e.target.value)}} ></textarea>
+                        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm  2xl:text-xl leading-8 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 focus:border-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name={massage} onChange={(e)=>{setMassage(e.target.value)}} ></textarea>
                     </div>
                 </div>
-                <div class="text-start  flex flex-col lg:w-3/6 md:items-center mb-2 px-10">
+                <div class="text-start  flex flex-col 2xl:w-5/6  lg:w-3/6 md:items-center mb-2 px-10">
                     <div class="md:w-2/3 flex">
-                    <button class="shadow bg-red-500 hover:bg-white hover:text-black border-2 hover:border-red-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded-full" type="submit"  >
+                    <button class="shadow bg-red-500 hover:bg-white hover:text-black border-2  2xl:text-xl hover:border-red-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded-full" type="submit"  >
                         SEND
                     </button>
                     {loader?<Loader />:''}

@@ -37,7 +37,7 @@ const ProgressLine = ({
 
   return (
     <div className="mb-10">
-      <div className="text-sm text-gray-500">{label}</div>
+      <div className="text-sm text-gray-500 2xl:text-lg">{label}</div>
       <div
         className="progressVisualFull"
         // to change the background color dynamically
@@ -68,7 +68,7 @@ const ProgressLine = ({
               className="progressVisualPart"  
             >
 
-              <span className="flex text-sm float-right text-white mr-2">{`${item.percentage}`}</span>
+              <span className="flex text-sm float-right text-white 2xl:text-md mr-2">{`${item.percentage}`}</span>
             </div>
           </>
           );

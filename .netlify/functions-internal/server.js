@@ -1313,12 +1313,12 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
   var error;
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
     children: state ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-      className: "bg-[#b92b2f] fixed block right-0 top-[30%] hover:cursor-pointer h-[40%] max-w-[9%] rounded-r-lg scale-[-1] z-50",
+      className: "bg-[#b92b2f] fixed block mt-5  right-0 top-[30%] hover:cursor-pointer h-[40%] max-w-[9%] rounded-r-lg scale-[-1] z-50",
       onClick: handleChange,
       children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-        className: " text-white font-solid  mt-4 md:m-2 ",
-        style: { writingMode: "vertical-rl", display: "table-caption" },
-        children: " send massage"
+        className: " text-white font-solid  md:m-2 text-lg 2xl:text-2xl ",
+        style: { marginTop: "20px", writingMode: "vertical-rl", display: "table-caption" },
+        children: " Send Massage"
       }, void 0, !1, {
         fileName: "app/chatbot/index.jsx",
         lineNumber: 94,
@@ -1329,7 +1329,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
       lineNumber: 93,
       columnNumber: 7
     }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-      className: "z-50 h-[500px]  max-w-[320px] bottom-0 right-0 fixed inline-grid",
+      className: "z-50 h-[500px]  2xl:h-[600px] max-w-[320px] 2xl:max-w-[400px] bottom-0 right-0 fixed inline-grid",
       children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
           className: "bg-[#b92b2f] ",
@@ -1357,7 +1357,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
               columnNumber: 11
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-              className: "p-5 text-sm  text-white ",
+              className: "p-5 text-sm  text-white 2xl:text-xl ",
               children: "Please fill out the form below and we will get back to you as soon as possible."
             }, void 0, !1, {
               fileName: "app/chatbot/index.jsx",
@@ -1386,11 +1386,11 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
             },
             children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                className: "relative z-0 mb-6 w-full group text-xs ",
+                className: "relative z-0 mb-6 w-full  group text-xs ",
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", {
                     type: "text",
-                    class: "block py-2.5 px-0 w-full outline-1 text-sm text-gray-700 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer",
+                    className: "block py-2.5 2xl:text-2xl px-0 w-full outline-1 text-sm text-gray-700 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer",
                     placeholder: " ",
                     name,
                     onChange: (e) => {
@@ -1403,7 +1403,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("label", {
                     for: "name",
-                    class: "absolute text-sm  text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
+                    class: "absolute text-sm 2xl:text-xl  text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
                     children: "* Name"
                   }, void 0, !1, {
                     fileName: "app/chatbot/index.jsx",
@@ -1413,7 +1413,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                     style: { color: "red" },
                     id: "name-error",
-                    class: "error"
+                    class: "error 2xl:text-xl"
                   }, void 0, !1, {
                     fileName: "app/chatbot/index.jsx",
                     lineNumber: 115,
@@ -1435,7 +1435,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                     },
                     maxLength: "12",
                     onWheel: (e) => e.target.blur(),
-                    className: "block py-2.5 px-0 w-full outline-1 text-sm text-gray-700 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer",
+                    className: "block py-2.5 px-0 w-full 2xl:text-2xl outline-1 text-sm text-gray-700 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer",
                     placeholder: " ",
                     name: contact,
                     onChange: (e) => {
@@ -1448,7 +1448,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("label", {
                     for: "name",
-                    className: "absolute text-sm  text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
+                    className: "absolute text-sm 2xl:text-xl text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
                     children: " Phone"
                   }, void 0, !1, {
                     fileName: "app/chatbot/index.jsx",
@@ -1458,7 +1458,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                     style: { color: "red" },
                     id: "contact-error",
-                    class: "error "
+                    class: "error 2xl:text-xl"
                   }, void 0, !1, {
                     fileName: "app/chatbot/index.jsx",
                     lineNumber: 127,
@@ -1475,7 +1475,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", {
                     type: "Email",
-                    className: "block py-2.5 px-0 w-full text-sm text-gray-700 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer",
+                    className: "block py-2.5 2xl:text-2xl px-0 w-full text-sm text-gray-700 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer",
                     placeholder: " ",
                     name: email,
                     onChange: (e) => {
@@ -1488,7 +1488,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("label", {
                     for: "email",
-                    className: "absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
+                    className: "absolute text-sm text-gray-500 2xl:text-xl dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
                     children: "* Email"
                   }, void 0, !1, {
                     fileName: "app/chatbot/index.jsx",
@@ -1498,7 +1498,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                     style: { color: "red" },
                     id: "email-error",
-                    className: "error"
+                    className: "error 2xl:text-xl"
                   }, void 0, !1, {
                     fileName: "app/chatbot/index.jsx",
                     lineNumber: 133,
@@ -1515,7 +1515,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("textarea", {
                     type: "text",
-                    className: "block py-2.5 px-0 w-full text-sm text-gray-700 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer",
+                    className: "block py-2.5 px-0 w-full 2xl:text-2xl text-sm text-gray-700 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer",
                     placeholder: " ",
                     name: massage,
                     onChange: (e) => {
@@ -1528,7 +1528,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("label", {
                     for: "subject",
-                    className: "absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
+                    className: "absolute text-sm text-gray-500 2xl:text-xl dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6",
                     children: "* Massage"
                   }, void 0, !1, {
                     fileName: "app/chatbot/index.jsx",
@@ -1538,7 +1538,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                     style: { color: "red" },
                     id: "massage-error",
-                    className: "error"
+                    className: "error 2xl:text-xl"
                   }, void 0, !1, {
                     fileName: "app/chatbot/index.jsx",
                     lineNumber: 139,
@@ -1554,7 +1554,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                 className: "md:flex md:items-center",
                 children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
                   type: "submit",
-                  className: "inline-block px-6 py-2.5 w-full bg-red-600 text-white font-medium text-sm  uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out",
+                  className: "inline-block px-6 py-2.5 w-full 2xl:text-xl bg-red-600 text-white font-medium text-sm  uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out",
                   children: [
                     " ",
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("i", {
@@ -1562,7 +1562,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
                     }, void 0, !1, {
                       fileName: "app/chatbot/index.jsx",
                       lineNumber: 144,
-                      columnNumber: 324
+                      columnNumber: 336
                     }, this),
                     " Submit"
                   ]
@@ -1593,10 +1593,11 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
             className: " hover:bg-white text-xs w-full m-auto  my-1 rounded-full justify-center ",
             children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
               href: "https://www.tawk.to/?utm_source=tawk-messenger&utm_medium=link&utm_campaign=referral&utm_term=5858baa75191003fde7bc865",
+              className: "2xl:text-2xl",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
                   src: "https://embed.tawk.to/_s/v4/assets/images/Tawky_16x16.svg",
-                  className: "w-5 m-2 inline"
+                  className: "w-5 m-2 inline "
                 }, void 0, !1, {
                   fileName: "app/chatbot/index.jsx",
                   lineNumber: 153,
@@ -1632,13 +1633,13 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ChatBoot = () => 
   }, this);
 }, chatbot_default = ChatBoot;
 
-// app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-NAVO2BBJ.css";
+// app/styles/app.css
+var app_default = "/build/_assets/app-TVBUOM4W.css";
 
 // app/root.jsx
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime");
 function links() {
-  return [{ rel: "stylesheet", href: tailwind_default }];
+  return [{ rel: "stylesheet", href: app_default }];
 }
 var meta = () => ({
   charset: "utf-8",
@@ -1666,7 +1667,7 @@ function App() {
             rel: "stylesheet"
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 26,
+            lineNumber: 29,
             columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("script", {
@@ -1674,7 +1675,7 @@ function App() {
             defer: !0
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 27,
+            lineNumber: 30,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
@@ -1682,7 +1683,7 @@ function App() {
             rel: "stylesheet"
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 28,
+            lineNumber: 31,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
@@ -1691,7 +1692,7 @@ function App() {
             crossOrigin: !0
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 31,
+            lineNumber: 34,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
@@ -1699,7 +1700,7 @@ function App() {
             rel: "stylesheet"
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 32,
+            lineNumber: 35,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", {
@@ -1707,7 +1708,7 @@ function App() {
             href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           }, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 35,
+            lineNumber: 38,
             columnNumber: 9
           }, this)
         ]
@@ -1720,48 +1721,48 @@ function App() {
         children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(navbar_default, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 40,
+            lineNumber: 43,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(header_default, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 41,
+            lineNumber: 44,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(chatbot_default, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 42,
+            lineNumber: 45,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.Outlet, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 43,
+            lineNumber: 46,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.ScrollRestoration, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 44,
+            lineNumber: 47,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.Scripts, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 45,
+            lineNumber: 48,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.LiveReload, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 46,
+            lineNumber: 49,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(footer_default, {}, void 0, !1, {
             fileName: "app/root.jsx",
-            lineNumber: 47,
+            lineNumber: 50,
             columnNumber: 9
           }, this)
         ]
       }, void 0, !0, {
         fileName: "app/root.jsx",
-        lineNumber: 38,
+        lineNumber: 41,
         columnNumber: 7
       }, this)
     ]
@@ -1801,7 +1802,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
               class: "lg:h-[320px] m-auto flex text-center flex-col justify-center",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                  class: "text-2xl pt-10 lg:text-5xl md:text-5xl  text-center  text-[#ffffff] z-30",
+                  class: "text-2xl pt-10 lg:text-5xl md:text-5xl  2xl:text-7xl text-center  text-[#ffffff] z-30",
                   children: props.heading
                 }, void 0, !1, {
                   fileName: "app/routes/service/index.jsx",
@@ -1809,7 +1810,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                   columnNumber: 25
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  class: "text-center mb-10  font-md text-sm lg:text-sm  text-[#cbcaca]  m-5",
+                  class: "text-center mb-10  font-md text-sm lg:text-sm  2xl:text-lg text-[#cbcaca]  m-5",
                   style: { letterSpacing: "2px" },
                   children: (_a = props.description) == null ? void 0 : _a.map((item) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                     children: item
@@ -1851,7 +1852,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
           children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
             class: "lg:h-[320px] m-auto flex text-center 	font-weight: 400; flex-col justify-center",
             children: props.postdata.map((item) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-              class: "text-center my-5 font-weight: 500 font-md text-sm   m-5",
+              class: "text-center my-5 font-weight: 500 font-md text-sm 2xl:text-lg  m-5",
               children: [
                 item,
                 " "
@@ -1887,7 +1888,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                 class: "lg:pt-20  lg:w-3/6 md:w-3/6  w-full",
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                    class: "text-[#999999] text-sm 	font-weight: 400 uppercase ",
+                    class: "text-[#999999] text-sm  2xl:text-lg	font-weight: 400 uppercase ",
                     children: props.apptype
                   }, void 0, !1, {
                     fileName: "app/routes/service/index.jsx",
@@ -1895,7 +1896,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                     columnNumber: 24
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                    class: "text-[#bf1e2e] text-md md:text-4xl  mb-5",
+                    class: "text-[#bf1e2e] text-md md:text-4xl  2xl:text-5xl  mb-5",
                     children: props.servicetype
                   }, void 0, !1, {
                     fileName: "app/routes/service/index.jsx",
@@ -1906,7 +1907,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                     class: "py-5 text-[#595959]",
                     children: [
                       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                        class: "mb-10 font-md text-sm font-weight: 400 text-[#595959] ",
+                        class: "mb-10 font-md text-sm font-weight: 400 text-[#595959] xl:text-md 2xl:text-2xl",
                         children: props.sdesc
                       }, void 0, !1, {
                         fileName: "app/routes/service/index.jsx",
@@ -1928,7 +1929,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                               class: "ml-2",
                               children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                                class: "mb-2 text-base",
+                                class: "mb-2 text-base xl:text-md 2xl:text-2xl ",
                                 children: item.head
                               }, void 0, !1, {
                                 fileName: "app/routes/service/index.jsx",
@@ -2006,7 +2007,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                 class: "lg:pt-20  lg:w-3/6 md:w-3/6  w-full",
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                    class: "text-[#999999] text-sm 	font-weight: 400 ",
+                    class: "text-[#999999] text-sm 	font-weight: 400  2xl:text-2xl ",
                     children: "WHY CHOOSE WEENGGS FOR YOUR"
                   }, void 0, !1, {
                     fileName: "app/routes/service/index.jsx",
@@ -2036,7 +2037,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime = require("react/j
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                           class: "ml-2",
                           children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                            class: "mb-2 text-base",
+                            class: "mb-2 text-base 2xl:text-2xl",
                             children: item.head
                           }, void 0, !1, {
                             fileName: "app/routes/service/index.jsx",
@@ -2693,7 +2694,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
               class: "lg:h-[320px] m-auto flex text-center flex-col justify-center",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                  class: "text-2xl pt-10 lg:text-5xl md:text-5xl  text-center font-bold text-[#ffffff] z-30",
+                  class: "text-2xl pt-10 lg:text-5xl md:text-5xl  text-center 2xl:text-5xl font-bold text-[#ffffff] z-30",
                   children: "Request a Quote"
                 }, void 0, !1, {
                   fileName: "app/routes/request-a-quote.jsx",
@@ -2701,7 +2702,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                   columnNumber: 21
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  class: "text-center mb-10 font-sm text-xs  uppercase text-[#191919]  m-5",
+                  class: "text-center mb-10 font-sm text-xs  uppercase text-[#fff] 2xl:text-md  m-5",
                   style: { letterSpacing: "5px" },
                   children: "FILL THE FORM BELOW"
                 }, void 0, !1, {
@@ -2744,12 +2745,12 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                 onSubmit: handleSubmit,
                 children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    class: " text-start flex flex-col lg:w-3/6 md:items-center mb-2 px-10",
+                    class: " text-start flex flex-col lg:w-3/6 2xl:w-5/6  md:items-center mb-2 px-10",
                     children: [
                       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                         class: "text-start  md:w-2/3 pb-2",
                         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("label", {
-                          class: "flex text-start text-gray-500 text-sm  md:text-right mb-1 md:mb-0 pr-4",
+                          class: "flex text-start text-gray-500 text-sm 2xl:text-2xl md:text-right mb-1 md:mb-0 pr-4",
                           children: "Your Name (required)"
                         }, void 0, !1, {
                           fileName: "app/routes/request-a-quote.jsx",
@@ -2765,7 +2766,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                         class: "md:w-2/3",
                         children: [
                           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", {
-                            class: " appearance-none border border-gray-200 rounded w-full text-sm p-2.5 leading-8   focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2",
+                            class: " appearance-none border border-gray-200 rounded w-full md:text-md 2xl:text-xl text-sm p-2.5 leading-8   focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2",
                             id: "name",
                             type: "text",
                             name,
@@ -2799,12 +2800,12 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                     columnNumber: 17
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    class: "text-start flex flex-col lg:w-3/6 md:items-center mb-2 px-10",
+                    class: "text-start flex flex-col lg:w-3/6 2xl:w-5/6  md:items-center mb-2 px-10",
                     children: [
                       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                         class: "text-start  md:w-2/3 pb-2",
                         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("label", {
-                          class: "flex text-start text-sm  text-gray-500  md:text-right mb-1 md:mb-0 pr-4",
+                          class: "flex text-start text-sm  text-gray-500  2xl:text-2xl md:text-right mb-1 md:mb-0 pr-4",
                           children: "Your Email (required)"
                         }, void 0, !1, {
                           fileName: "app/routes/request-a-quote.jsx",
@@ -2820,7 +2821,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                         class: "md:w-2/3",
                         children: [
                           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", {
-                            class: " appearance-none border border-gray-200 rounded w-full text-sm p-2.5 leading-8 focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2",
+                            class: " appearance-none border border-gray-200 rounded w-full  2xl:text-xl text-sm p-2.5 leading-8 focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2",
                             id: "email",
                             type: "text",
                             name: email,
@@ -2854,12 +2855,12 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                     columnNumber: 17
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    class: "text-start flex flex-col lg:w-3/6 md:items-center mb-2 px-10",
+                    class: "text-start flex flex-col lg:w-3/6 2xl:w-5/6  md:items-center mb-2 px-10",
                     children: [
                       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                         class: "text-start  md:w-2/3 pb-2",
                         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("label", {
-                          class: "text-start flex text-sm  text-gray-500  md:text-right mb-1 md:mb-0 pr-4",
+                          class: "text-start flex text-sm  text-gray-500  2xl:text-2xl md:text-right mb-1 md:mb-0 pr-4",
                           children: "Subject"
                         }, void 0, !1, {
                           fileName: "app/routes/request-a-quote.jsx",
@@ -2874,7 +2875,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                         class: "md:w-2/3",
                         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", {
-                          class: " appearance-none border border-gray-200 rounded block text-sm  w-full p-2.5  leading-8 focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2",
+                          class: " appearance-none border border-gray-200 rounded block text-sm  2xl:text-xl w-full p-2.5  leading-8 focus:outline-none focus:bg-white focus:border-blue-500 focus:border-2",
                           id: "subject",
                           type: "text",
                           name: subject,
@@ -2898,12 +2899,12 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                     columnNumber: 17
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    class: "text-start flex flex-col lg:w-3/6 md:items-center mb-2 px-10",
+                    class: "text-start flex flex-col lg:w-3/6 2xl:w-5/6  md:items-center mb-2 px-10",
                     children: [
                       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                         class: "text-start  md:w-2/3 pb-2",
                         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("label", {
-                          class: "block text-gray-500 text-sm  md:text-start mb-1 md:mb-0 pr-4",
+                          class: "block text-gray-500 text-sm  2xl:text-2xl md:text-start mb-1 md:mb-0 pr-4",
                           children: "Your Massage"
                         }, void 0, !1, {
                           fileName: "app/routes/request-a-quote.jsx",
@@ -2920,7 +2921,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("textarea", {
                           id: "message",
                           rows: "4",
-                          class: "block p-2.5 w-full text-sm leading-8 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 focus:border-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
+                          class: "block p-2.5 w-full text-sm  2xl:text-xl leading-8 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 focus:border-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
                           name: massage,
                           onChange: (e) => {
                             setMassage(e.target.value);
@@ -2942,12 +2943,12 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), RequestQuote = ()
                     columnNumber: 17
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    class: "text-start  flex flex-col lg:w-3/6 md:items-center mb-2 px-10",
+                    class: "text-start  flex flex-col 2xl:w-5/6  lg:w-3/6 md:items-center mb-2 px-10",
                     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                       class: "md:w-2/3 flex",
                       children: [
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
-                          class: "shadow bg-red-500 hover:bg-white hover:text-black border-2 hover:border-red-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded-full",
+                          class: "shadow bg-red-500 hover:bg-white hover:text-black border-2  2xl:text-xl hover:border-red-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded-full",
                           type: "submit",
                           children: "SEND"
                         }, void 0, !1, {
@@ -4314,7 +4315,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => ((0
             class: "lg:h-[320px] m-auto flex text-center flex-col justify-center",
             children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                class: "text-1xl pt-10 lg:text-5xl md:text-5xl  text-center font-weight: 400 text-[#ffffff] z-30",
+                class: "text-1xl pt-10 lg:text-4xl md:text-4xl 2xl:text-5xl text-center font-weight: 400 text-[#ffffff] z-30",
                 children: "About Us"
               }, void 0, !1, {
                 fileName: "app/routes/about.jsx",
@@ -4322,7 +4323,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => ((0
                 columnNumber: 13
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                class: "text-center mb-10 font-sm lg:text-xs  uppercase text-[#a5a5a5]  m-5",
+                class: "text-center mb-10 font-sm lg:text-xs 2xl:text-2xl uppercase text-[#a5a5a5]  m-5",
                 style: { letterSpacing: "5px" },
                 children: "WE + ENNGGS"
               }, void 0, !1, {
@@ -4362,7 +4363,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => ((0
               class: "lg:pt-20  lg:w-3/6 md:w-3/6 py-10  w-full",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                  class: "text-[black] m-5 text-center lg:text-5xl text-2xl font-weight: 400 mb-5",
+                  class: "text-[black] m-5  lg:text-4xl text-2xl 2xl:text-5xl font-weight: 400 text-start mb-5",
                   children: "Who are Weenggs?"
                 }, void 0, !1, {
                   fileName: "app/routes/about.jsx",
@@ -4370,7 +4371,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => ((0
                   columnNumber: 12
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", {
-                  class: "py-5 text-sm m-5 ",
+                  class: "py-5 text-sm 2xl:text-lg m-5 ",
                   children: [
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h6", {
                       class: "m-auto text-md text-gray-500",
@@ -4473,7 +4474,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => ((0
             class: "m-auto flex text-center flex-col justify-center",
             children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                class: "text-2xl pt-10 md:text-3xl  text-center font-weight:400 text-[#000] z-30",
+                class: "text-2xl pt-10 md:text-3xl 2xl:text-xl  text-center font-weight:400 text-[#000] z-30",
                 children: item.name
               }, void 0, !1, {
                 fileName: "app/routes/about.jsx",
@@ -4481,7 +4482,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => ((0
                 columnNumber: 19
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                class: "text-center mb-10  text-sm   text-[#a5a5a5]-400  m-10",
+                class: "text-center mb-10  text-sm   text-[#a5a5a5]-400 2xl:text-lg m-10",
                 children: [
                   item.desc,
                   " "
@@ -4543,7 +4544,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => ((0
                     columnNumber: 19
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                    class: "text-center p-5 font-medium ",
+                    class: "text-center p-5 font-medium  2xl:text-xl",
                     children: item.head
                   }, void 0, !1, {
                     fileName: "app/routes/about.jsx",
@@ -4551,7 +4552,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => ((0
                     columnNumber: 21
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                    class: "text-[#999999] p-5 text-sm lg:text-md text-center",
+                    class: "text-[#999999] p-5 text-sm  lg:text-md text-center 2xl:text-lg",
                     children: item.desc
                   }, void 0, !1, {
                     fileName: "app/routes/about.jsx",
@@ -4559,7 +4560,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => ((0
                     columnNumber: 21
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
-                    class: "bg-red-700 mt-10  hrover:bg-green m-auto flex font-semibold text-white text-sm align-center uppercase py-3 px-6 rounded-full",
+                    class: "bg-red-700 mt-10  hrover:bg-green m-auto flex 2xl:text-xl font-semibold text-white text-sm align-center uppercase py-3 px-6 rounded-full",
                     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
                       href: item.path && item.path,
                       children: [
@@ -4889,7 +4890,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ProgressLine = ({
     className: "mb-10",
     children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-        className: "text-sm text-gray-500",
+        className: "text-sm text-gray-500 2xl:text-lg",
         children: label
       }, void 0, !1, {
         fileName: "app/ProgressLine/index.jsx",
@@ -4913,7 +4914,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ProgressLine = ({
             },
             className: "progressVisualPart",
             children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", {
-              className: "flex text-sm float-right text-white mr-2",
+              className: "flex text-sm float-right text-white 2xl:text-md mr-2",
               children: `${item.percentage}`
             }, void 0, !1, {
               fileName: "app/ProgressLine/index.jsx",
@@ -4944,13 +4945,30 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), ProgressLine = ({
 }, ProgressLine_default = ProgressLine;
 
 // app/routes/index.jsx
-var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
+var import_react24 = require("@remix-run/react"), import_react_dom = require("react-dom"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
   let [open, setOpen] = (0, import_react23.useState)(!1), [lock, setlock] = (0, import_react23.useState)(!1), [index2, setIndex] = (0, import_react23.useState)(0), imageClick = (index3) => {
     setlock(!0), scrollToTop(), setOpen(!0), setIndex(index3);
   };
   (0, import_react23.useEffect)(() => {
     lock ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
-  }, [lock]), (0, import_react23.useEffect)(() => {
+  }, [lock]);
+  let sliderSettings = {
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  }, breakPoints = [];
+  (0, import_react23.useEffect)(() => {
     document.title = "Weenggs Technology";
   }, []);
   let scrollToTop = () => {
@@ -4970,7 +4988,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
       setlock
     }, void 0, !1, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 48,
+      lineNumber: 79,
       columnNumber: 3
     }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
       children: [
@@ -4985,86 +5003,86 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                   className: " text-center  ",
                   children: [
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                      className: "text-2xl font-sans lg:text-4xl md:text-4xl mb-10 xl:text-4xl 2xl:text-4xl  text-[#ffffff]",
+                      className: "text-2xl font-sans lg:text-4xl md:text-4xl mb-10  2xl:text-5xl  text-[#ffffff]",
                       children: "The epicenter where latest technology meets creativity!"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 58,
+                      lineNumber: 88,
                       columnNumber: 13
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                      className: "text-center  font-medium md:text-md xl:text-lg text-sm text-[#e9e5e5] text-md ",
+                      className: "text-center  font-medium md:text-md  2xl:text-2xl  text-sm text-[#e9e5e5] text-md ",
                       children: [
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                           children: "A team of professionals that help you nurture & grow your business!"
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 60,
+                          lineNumber: 90,
                           columnNumber: 15
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                           children: "Design & Develop Stunning Websites"
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 61,
+                          lineNumber: 91,
                           columnNumber: 15
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                           children: "Code some Kick-ass Mobile Applications"
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 62,
+                          lineNumber: 92,
                           columnNumber: 15
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                           children: "Provide 24/7 Customer Service"
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 63,
+                          lineNumber: 93,
                           columnNumber: 15
                         }, this)
                       ]
                     }, void 0, !0, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 59,
+                      lineNumber: 89,
                       columnNumber: 13
                     }, this)
                   ]
                 }, void 0, !0, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 57,
+                  lineNumber: 87,
                   columnNumber: 11
                 }, this)
               }, void 0, !1, {
                 fileName: "app/routes/index.jsx",
-                lineNumber: 56,
+                lineNumber: 86,
                 columnNumber: 3
               }, this)
             }, void 0, !1, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 55,
+              lineNumber: 85,
               columnNumber: 8
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
               style: { marginTop: "-165px" },
-              className: " bg-red-700 z-0 hrover:bg-green m-auto flex font:semibold text-sm text-white align-center uppercase py-3 px-6 rounded-full",
+              className: " bg-red-700 z-0 hrover:bg-green m-auto flex font:semibold text-sm text-white align-center uppercase py-3 px-6 2xl:text-2xl  rounded-full",
               children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
                 href: "/request-a-quote",
                 children: "LET'S GET STARTED"
               }, void 0, !1, {
                 fileName: "app/routes/index.jsx",
-                lineNumber: 69,
+                lineNumber: 99,
                 columnNumber: 15
               }, this)
             }, void 0, !1, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 68,
+              lineNumber: 98,
               columnNumber: 3
             }, this)
           ]
         }, void 0, !0, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 54,
+          lineNumber: 84,
           columnNumber: 4
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5075,27 +5093,27 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
               className: "",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                  className: "text-center text-[15px] font-weight: 700; text-[#999] ",
+                  className: "text-center text-[15px] font-weight: 700; 2xl:text-2xl  text-[#999] ",
                   children: "YOUR NOT-SO-AVERAGE"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 78,
+                  lineNumber: 108,
                   columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                  className: "text-sm  md:text-4xl mb-10 text-center  text-[#b52332]",
+                  className: "text-sm  md:text-4xl mb-10 text-center 2xl:text-5xl text-[#b52332]",
                   children: "MOBILE APPS AND WEBSITE DEVELOPERS"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 79,
+                  lineNumber: 109,
                   columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  className: "text-center mb-10  lg:text-sm text-[#595959] text-sm m-5",
+                  className: "text-center mb-10  lg:text-sm text-[#595959] text-sm m-5 2xl:text-2xl ",
                   children: "Inspired by art and technology, we integrate designs and smart development to create some of the most user-centric websites and mobile applications. We are all about bringing your unique ideas to life and delivering success."
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 80,
+                  lineNumber: 110,
                   columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5116,63 +5134,63 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                             alt: "Weenggs Technology"
                           }, void 0, !1, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 91,
+                            lineNumber: 121,
                             columnNumber: 7
                           }, this)
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 90,
+                          lineNumber: 120,
                           columnNumber: 7
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                          className: "text-center p-5 pt-5 text-md uppercase",
+                          className: "text-center p-5 pt-5 text-md 2xl:text-lg uppercase",
                           children: list.name
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 93,
+                          lineNumber: 123,
                           columnNumber: 8
                         }, this),
                         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                          className: "text-[#999999] text-sm text-center hover:animate-pulse",
+                          className: "text-[#999999] text-sm text-center 2xl:text-xl hover:animate-pulse",
                           children: [
                             list.desc,
                             " "
                           ]
                         }, void 0, !0, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 94,
+                          lineNumber: 124,
                           columnNumber: 8
                         }, this)
                       ]
                     }, index3, !0, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 88,
+                      lineNumber: 118,
                       columnNumber: 7
                     }, this))
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 85,
+                    lineNumber: 115,
                     columnNumber: 6
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 84,
+                  lineNumber: 114,
                   columnNumber: 4
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 77,
+              lineNumber: 107,
               columnNumber: 5
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 76,
+            lineNumber: 106,
             columnNumber: 3
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 75,
+          lineNumber: 105,
           columnNumber: 4
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5183,72 +5201,72 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
               className: "py-20",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                  className: "text-center text-[16px] text-[#e5e2e2] ",
+                  className: "text-center text-[16px] text-[#e5e2e2] 2xl:text-2xl ",
                   children: "THE PERFECT BLEND OF"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 107,
+                  lineNumber: 137,
                   columnNumber: 5
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                  className: "  text-[15px] md:text-3xl  mb-10 text-center  text-[#fff]",
+                  className: "  text-[15px] md:text-3xl  mb-10 text-center 2xl:text-3xl text-[#fff]",
                   children: "CREATIVE-PROWESS, TECHNOLOGY AND EXTRAORDINARY SERVICE!"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 108,
+                  lineNumber: 138,
                   columnNumber: 5
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                   className: "text-center mb-10  text-sm text-[#fff]  ",
                   children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                    className: "leading-7  text-[#d3d3d3]",
+                    className: "leading-7  text-[#d3d3d3] 2xl:text-lg",
                     children: "We are a team of experienced strategists, designers, developers and project managers. With get shit done attitude, we can accomplish any challenge out there Our in-depth understanding of futuristic technology is what brought us together and it\u2019s what keeps us moving forward. Leaving the extra-mile way behind, we happen to offer exceptional services to all our clients, including web development, mobile app development, UX design and more."
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 110,
+                    lineNumber: 140,
                     columnNumber: 7
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 109,
+                  lineNumber: 139,
                   columnNumber: 5
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  className: "text-center ",
+                  className: "text-center 2xl:text-2xl",
                   children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react_router_dom.Link, {
                     to: "/request-a-quote",
                     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
-                      className: "bg-[#fff] md:mt-10 font-semibold text-center tracking-[1px] py-3 px-6 rounded-full text-xs text-red-600 capitalize ",
+                      className: "bg-[#fff] md:mt-10 2xl:text-2xl font-semibold text-center tracking-[1px] py-3 px-6 rounded-full text-xs text-red-600 capitalize hover:text-green-300 ",
                       children: "TELL US WHAT YOU NEED AND WE WILL MAKE THE MAGIC HAPPEN!"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 115,
+                      lineNumber: 145,
                       columnNumber: 6
                     }, this)
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 114,
+                    lineNumber: 144,
                     columnNumber: 6
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 113,
+                  lineNumber: 143,
                   columnNumber: 5
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 106,
+              lineNumber: 136,
               columnNumber: 6
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 105,
+            lineNumber: 135,
             columnNumber: 4
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 104,
+          lineNumber: 134,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5262,19 +5280,19 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                   className: "lg:pt-20  lg:w-3/6 md:w-3/6 px-4 w-full",
                   children: [
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                      className: "text-[#999] text-sm font-bold ",
+                      className: "text-[#999] text-sm font-bold 2xl:text-xl",
                       children: "REASONS WHY TOP BRANDS"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 129,
+                      lineNumber: 159,
                       columnNumber: 5
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                      className: "text-[#bf1e2e] lg:text-4xl md:text-2xl font-bold mb-5",
+                      className: "text-[#bf1e2e] lg:text-4xl md:text-2xl 2xl:text-5xl font-bold mb-5",
                       children: "CHOOSE US!"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 130,
+                      lineNumber: 160,
                       columnNumber: 5
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", {
@@ -5287,49 +5305,49 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                             children: "\uF087"
                           }, void 0, !1, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 136,
+                            lineNumber: 166,
                             columnNumber: 6
                           }, this),
                           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                             className: "ml-1",
                             children: [
                               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                                className: "mb-2 text-base",
+                                className: "mb-2 text-base 2xl:text-xl",
                                 children: listdata.heading
                               }, void 0, !1, {
                                 fileName: "app/routes/index.jsx",
-                                lineNumber: 138,
+                                lineNumber: 168,
                                 columnNumber: 6
                               }, this),
                               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                                className: "m-auto text-gray-500 text-sm",
+                                className: "m-auto text-gray-500 2xl:text-lg text-sm",
                                 children: listdata.desc
                               }, void 0, !1, {
                                 fileName: "app/routes/index.jsx",
-                                lineNumber: 139,
+                                lineNumber: 169,
                                 columnNumber: 6
                               }, this)
                             ]
                           }, void 0, !0, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 137,
+                            lineNumber: 167,
                             columnNumber: 6
                           }, this)
                         ]
                       }, index3, !0, {
                         fileName: "app/routes/index.jsx",
-                        lineNumber: 135,
+                        lineNumber: 165,
                         columnNumber: 6
                       }, this))
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 132,
+                      lineNumber: 162,
                       columnNumber: 5
                     }, this)
                   ]
                 }, void 0, !0, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 128,
+                  lineNumber: 158,
                   columnNumber: 5
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5340,28 +5358,28 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                     alt: "logo"
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 147,
+                    lineNumber: 177,
                     columnNumber: 5
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 146,
+                  lineNumber: 176,
                   columnNumber: 5
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 127,
+              lineNumber: 157,
               columnNumber: 5
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 126,
+            lineNumber: 156,
             columnNumber: 5
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 125,
+          lineNumber: 155,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5372,19 +5390,19 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
               className: "py-20 h-full ",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                  className: "text-center  text-[#999] ",
+                  className: "text-center  text-[#999] 2xl:text-2xl ",
                   children: "OUR"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 159,
+                  lineNumber: 189,
                   columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                  className: "text-2xl lg:text-5xl md:text-5xl mb-10 text-center  text-[#b52332]",
+                  className: "text-2xl lg:text-5xl md:text-4xl mb-10 text-center 2xl:text-5xl text-[#b52332]",
                   children: "Work"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 160,
+                  lineNumber: 190,
                   columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5405,48 +5423,48 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                             alt: "Weenggs Technology"
                           }, void 0, !1, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 169,
+                            lineNumber: 199,
                             columnNumber: 8
                           }, this)
                         }, void 0, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 168,
+                          lineNumber: 198,
                           columnNumber: 8
                         }, this)
                       }, index3, !1, {
                         fileName: "app/routes/index.jsx",
-                        lineNumber: 167,
+                        lineNumber: 197,
                         columnNumber: 8
                       }, this)
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 166,
+                      lineNumber: 196,
                       columnNumber: 6
                     }, this))
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 163,
+                    lineNumber: 193,
                     columnNumber: 4
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 162,
+                  lineNumber: 192,
                   columnNumber: 4
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 158,
+              lineNumber: 188,
               columnNumber: 4
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 157,
+            lineNumber: 187,
             columnNumber: 3
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 155,
+          lineNumber: 185,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5460,19 +5478,19 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                   className: "lg:py-20 p-10 lg:w-3/6 xl:4/6 md:w-3/6  w-full",
                   children: [
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                      className: "text-[#999] text-sm  ",
+                      className: "text-[#999] text-sm  2xl:text-xl",
                       children: "TECHNOLOGIES WE ARE VERY SAVVY"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 191,
+                      lineNumber: 221,
                       columnNumber: 4
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                      className: "text-[#bf1e2e] lg:font-weight:600; lg:text-4xl md:text-2xl mb-5 ",
+                      className: "text-[#bf1e2e] lg:font-weight:600; lg:text-4xl md:text-2xl 2xl:text-6xl mb-5 ",
                       children: "WITH OUR SKILLS"
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 192,
+                      lineNumber: 222,
                       columnNumber: 4
                     }, this),
                     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5487,18 +5505,18 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                         ]
                       }, ind, !1, {
                         fileName: "app/routes/index.jsx",
-                        lineNumber: 195,
+                        lineNumber: 225,
                         columnNumber: 6
                       }, this))
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 193,
+                      lineNumber: 223,
                       columnNumber: 4
                     }, this)
                   ]
                 }, void 0, !0, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 190,
+                  lineNumber: 220,
                   columnNumber: 4
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5509,143 +5527,19 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                     alt: "logo"
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 211,
+                    lineNumber: 241,
                     columnNumber: 4
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 210,
-                  columnNumber: 4
-                }, this)
-              ]
-            }, void 0, !0, {
-              fileName: "app/routes/index.jsx",
-              lineNumber: 189,
-              columnNumber: 3
-            }, this)
-          }, void 0, !1, {
-            fileName: "app/routes/index.jsx",
-            lineNumber: 188,
-            columnNumber: 3
-          }, this)
-        }, void 0, !1, {
-          fileName: "app/routes/index.jsx",
-          lineNumber: 187,
-          columnNumber: 3
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-          className: "bg-[#f8f9fa]",
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
-            className: " lg:max-w-[1140px] block m-auto",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-              className: "py-[100px] h-full ",
-              children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                  className: "text-center  text-[#999] ",
-                  children: "OUR"
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 220,
-                  columnNumber: 4
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                  className: "text-2xl lg:text-4xl md:text-4xl mb-10 text-center  text-[#b52332]",
-                  children: "TESTIMONIALS"
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 221,
-                  columnNumber: 4
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                  className: "container  m-auto my-5",
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                    className: "flex flex-col w-full p-5  ",
-                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_carousel.default, {
-                      autoplay: !0,
-                      className: "slider-container  ",
-                      children: details.map((items, ind) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                        className: "grid grid-cols-1  p-5  w-full  bg-[#fff] h-auto  rounded-lg ",
-                        children: [
-                          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                            className: "text-[#595959] text-sm mb-5  h-[150px] overflow-x-auto ",
-                            children: items.title
-                          }, void 0, !1, {
-                            fileName: "app/routes/index.jsx",
-                            lineNumber: 231,
-                            columnNumber: 8
-                          }, this),
-                          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                            className: "flex w-fit ",
-                            children: [
-                              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
-                                className: "mx-4 m-auto rounded-full mr-2",
-                                width: "80",
-                                height: "80",
-                                src: items.image,
-                                alt: "Weenggs Technology"
-                              }, void 0, !1, {
-                                fileName: "app/routes/index.jsx",
-                                lineNumber: 236,
-                                columnNumber: 7
-                              }, this),
-                              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                                className: "text-sm text-[#4169e2] m-auto p-2",
-                                children: [
-                                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
-                                    className: "",
-                                    children: items.name
-                                  }, void 0, !1, {
-                                    fileName: "app/routes/index.jsx",
-                                    lineNumber: 238,
-                                    columnNumber: 8
-                                  }, this),
-                                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
-                                    href: "https://hoaviol.com",
-                                    className: "flex-wrap",
-                                    children: items.link
-                                  }, void 0, !1, {
-                                    fileName: "app/routes/index.jsx",
-                                    lineNumber: 239,
-                                    columnNumber: 8
-                                  }, this)
-                                ]
-                              }, void 0, !0, {
-                                fileName: "app/routes/index.jsx",
-                                lineNumber: 237,
-                                columnNumber: 8
-                              }, this)
-                            ]
-                          }, void 0, !0, {
-                            fileName: "app/routes/index.jsx",
-                            lineNumber: 234,
-                            columnNumber: 7
-                          }, this)
-                        ]
-                      }, ind, !0, {
-                        fileName: "app/routes/index.jsx",
-                        lineNumber: 230,
-                        columnNumber: 7
-                      }, this))
-                    }, void 0, !1, {
-                      fileName: "app/routes/index.jsx",
-                      lineNumber: 226,
-                      columnNumber: 7
-                    }, this)
-                  }, void 0, !1, {
-                    fileName: "app/routes/index.jsx",
-                    lineNumber: 224,
-                    columnNumber: 4
-                  }, this)
-                }, void 0, !1, {
-                  fileName: "app/routes/index.jsx",
-                  lineNumber: 222,
+                  lineNumber: 240,
                   columnNumber: 4
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
               lineNumber: 219,
-              columnNumber: 4
+              columnNumber: 3
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
@@ -5658,6 +5552,136 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+          className: "bg-[#f8f9fa] ",
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
+            className: " lg:max-w-[1140px] block m-auto",
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+              className: "py-[100px] h-full ",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                  className: "text-center  text-[#999] 2xl:text-2xl",
+                  children: "OUR"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 250,
+                  columnNumber: 4
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                  className: "text-2xl lg:text-4xl md:text-4xl mb-10 text-center 2xl:text-5xl text-[#b52332]",
+                  children: "TESTIMONIALS"
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 251,
+                  columnNumber: 4
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                  className: "container  m-auto my-5",
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                    className: "flex flex-col w-full p-5  ",
+                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_carousel.default, {
+                      autoplay: !0,
+                      slidesToShow: 2,
+                      children: details.map((items, ind) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
+                        children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                          className: "grid  grid-cols-1 gap-1  lg:p-8  w-full  bg-[#fff] h-auto  rounded-lg ",
+                          children: [
+                            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
+                              className: "text-[#595959] text-sm mb-5  h-[150px] 2xl:text-lg overflow-x-auto ",
+                              children: items.title
+                            }, void 0, !1, {
+                              fileName: "app/routes/index.jsx",
+                              lineNumber: 261,
+                              columnNumber: 8
+                            }, this),
+                            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                              className: "flex w-fit ",
+                              children: [
+                                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
+                                  className: "mx-4 m-auto rounded-full mr-2",
+                                  width: "80",
+                                  height: "80",
+                                  src: items.image,
+                                  alt: "Weenggs Technology"
+                                }, void 0, !1, {
+                                  fileName: "app/routes/index.jsx",
+                                  lineNumber: 266,
+                                  columnNumber: 7
+                                }, this),
+                                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+                                  className: "text-sm text-[#4169e2] flex-wrap m-auto p-2",
+                                  children: [
+                                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
+                                      className: "",
+                                      children: items.name
+                                    }, void 0, !1, {
+                                      fileName: "app/routes/index.jsx",
+                                      lineNumber: 268,
+                                      columnNumber: 8
+                                    }, this),
+                                    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
+                                      href: "https://hoaviol.com",
+                                      className: "flex-wrap",
+                                      children: items.link
+                                    }, void 0, !1, {
+                                      fileName: "app/routes/index.jsx",
+                                      lineNumber: 269,
+                                      columnNumber: 8
+                                    }, this)
+                                  ]
+                                }, void 0, !0, {
+                                  fileName: "app/routes/index.jsx",
+                                  lineNumber: 267,
+                                  columnNumber: 8
+                                }, this)
+                              ]
+                            }, void 0, !0, {
+                              fileName: "app/routes/index.jsx",
+                              lineNumber: 264,
+                              columnNumber: 7
+                            }, this)
+                          ]
+                        }, ind, !0, {
+                          fileName: "app/routes/index.jsx",
+                          lineNumber: 260,
+                          columnNumber: 7
+                        }, this)
+                      }, void 0, !1, {
+                        fileName: "app/routes/index.jsx",
+                        lineNumber: 259,
+                        columnNumber: 7
+                      }, this))
+                    }, void 0, !1, {
+                      fileName: "app/routes/index.jsx",
+                      lineNumber: 256,
+                      columnNumber: 7
+                    }, this)
+                  }, void 0, !1, {
+                    fileName: "app/routes/index.jsx",
+                    lineNumber: 254,
+                    columnNumber: 4
+                  }, this)
+                }, void 0, !1, {
+                  fileName: "app/routes/index.jsx",
+                  lineNumber: 252,
+                  columnNumber: 4
+                }, this)
+              ]
+            }, void 0, !0, {
+              fileName: "app/routes/index.jsx",
+              lineNumber: 249,
+              columnNumber: 4
+            }, this)
+          }, void 0, !1, {
+            fileName: "app/routes/index.jsx",
+            lineNumber: 248,
+            columnNumber: 3
+          }, this)
+        }, void 0, !1, {
+          fileName: "app/routes/index.jsx",
+          lineNumber: 247,
+          columnNumber: 3
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
           className: "bg-[#fff]",
           children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
             className: "lg:max-w-[1140px] justify-center block m-auto md:my-[100px] ",
@@ -5665,11 +5689,11 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
               className: "lg:pt-30 pt-30 p-10 h-full ",
               children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                  className: "text-center  text-[#999] ",
+                  className: "text-center  text-[#999] 2xl:text-2xl ",
                   children: "OUR"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 260,
+                  lineNumber: 292,
                   columnNumber: 7
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
@@ -5677,15 +5701,15 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                   children: "CLIENTS"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 261,
+                  lineNumber: 293,
                   columnNumber: 7
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
-                  className: "text-center text-sm text-[#999] ",
+                  className: "text-center text-sm text-[#999] 2xl:text-lg ",
                   children: "Some of the many clients we've helped achieve great results"
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 262,
+                  lineNumber: 294,
                   columnNumber: 7
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
@@ -5693,11 +5717,11 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                   children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                     className: "flex flex-col w-full h-fit",
                     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-                      className: "slider-container max-w[1140px] ",
+                      className: " max-w[1140px] ",
                       children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_carousel.default, {
-                        wrapAround: !0,
-                        autoplay: !0,
-                        cellAlign: "center",
+                        dragging: "true",
+                        slidesToScroll: 1,
+                        slidesToShow: 3,
                         children: client && client.map((citem, ind) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                           className: "h-auto   m-auto ",
                           children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {
@@ -5706,59 +5730,59 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Index = () => {
                             alt: "img-not-found"
                           }, void 0, !1, {
                             fileName: "app/routes/index.jsx",
-                            lineNumber: 271,
-                            columnNumber: 10
+                            lineNumber: 302,
+                            columnNumber: 12
                           }, this)
                         }, ind, !1, {
                           fileName: "app/routes/index.jsx",
-                          lineNumber: 269,
-                          columnNumber: 10
+                          lineNumber: 301,
+                          columnNumber: 11
                         }, this))
                       }, void 0, !1, {
                         fileName: "app/routes/index.jsx",
-                        lineNumber: 267,
-                        columnNumber: 9
+                        lineNumber: 299,
+                        columnNumber: 8
                       }, this)
                     }, void 0, !1, {
                       fileName: "app/routes/index.jsx",
-                      lineNumber: 265,
+                      lineNumber: 297,
                       columnNumber: 8
                     }, this)
                   }, void 0, !1, {
                     fileName: "app/routes/index.jsx",
-                    lineNumber: 264,
+                    lineNumber: 296,
                     columnNumber: 7
                   }, this)
                 }, void 0, !1, {
                   fileName: "app/routes/index.jsx",
-                  lineNumber: 263,
+                  lineNumber: 295,
                   columnNumber: 7
                 }, this)
               ]
             }, void 0, !0, {
               fileName: "app/routes/index.jsx",
-              lineNumber: 259,
+              lineNumber: 291,
               columnNumber: 7
             }, this)
           }, void 0, !1, {
             fileName: "app/routes/index.jsx",
-            lineNumber: 258,
+            lineNumber: 290,
             columnNumber: 6
           }, this)
         }, void 0, !1, {
           fileName: "app/routes/index.jsx",
-          lineNumber: 257,
+          lineNumber: 289,
           columnNumber: 3
         }, this)
       ]
     }, void 0, !0, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 50,
-      columnNumber: 3
+      lineNumber: 81,
+      columnNumber: 2
     }, this)
   }, void 0, !1, {
     fileName: "app/routes/index.jsx",
-    lineNumber: 44,
+    lineNumber: 72,
     columnNumber: 3
   }, this);
 }, routes_default = Index;
@@ -5768,7 +5792,7 @@ var __exports = {};
 __export(__exports, {
   default: () => __default
 });
-var import_react24 = require("react"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), PageNotFound = () => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
+var import_react25 = require("react"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), PageNotFound = () => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
   children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("section", {
     className: "grid place-items-center overflow-hidden relative w-full top-[20%]",
     children: [
@@ -5911,7 +5935,7 @@ var import_react24 = require("react"), import_jsx_dev_runtime = require("react/j
 }, this), __default = PageNotFound;
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "4ffc143e", entry: { module: "/build/entry.client-YDX3NPJS.js", imports: ["/build/_shared/chunk-WMFE6TZ5.js", "/build/_shared/chunk-TF2ZJQYU.js", "/build/_shared/chunk-E3ZBIYPI.js", "/build/_shared/chunk-MLBUYSNZ.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ALC36ATJ.js", imports: ["/build/_shared/chunk-DZO7EO6M.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/$": { id: "routes/$", parentId: "root", path: "*", index: void 0, caseSensitive: void 0, module: "/build/routes/$-4ZLL2QRP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-6SFSQCMJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/careers": { id: "routes/careers", parentId: "root", path: "careers", index: void 0, caseSensitive: void 0, module: "/build/routes/careers-WAAMPSU5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact": { id: "routes/contact", parentId: "root", path: "contact", index: void 0, caseSensitive: void 0, module: "/build/routes/contact-ZO45CRTR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-T2HT3SHK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portfolio": { id: "routes/portfolio", parentId: "root", path: "portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portfolio-S6XMKAA7.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/request-a-quote": { id: "routes/request-a-quote", parentId: "root", path: "request-a-quote", index: void 0, caseSensitive: void 0, module: "/build/routes/request-a-quote-DHMTIDGU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/android-app-development": { id: "routes/service/android-app-development", parentId: "root", path: "service/android-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/android-app-development-EKK76O6P.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/custom-web-development": { id: "routes/service/custom-web-development", parentId: "root", path: "service/custom-web-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/custom-web-development-LJU2GAXZ.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/desktop-app-development": { id: "routes/service/desktop-app-development", parentId: "root", path: "service/desktop-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/desktop-app-development-C7GNOQUM.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/index": { id: "routes/service/index", parentId: "root", path: "service", index: !0, caseSensitive: void 0, module: "/build/routes/service/index-MIJPJEA5.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/iphone-app-development": { id: "routes/service/iphone-app-development", parentId: "root", path: "service/iphone-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/iphone-app-development-DAHCH2CW.js", imports: ["/build/_shared/chunk-EWF7UZ53.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-4FFC143E.js" };
+var assets_manifest_default = { version: "4c183e93", entry: { module: "/build/entry.client-HDXQGZJL.js", imports: ["/build/_shared/chunk-WMFE6TZ5.js", "/build/_shared/chunk-XHZA5SMI.js", "/build/_shared/chunk-MLBUYSNZ.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ICVGZIKI.js", imports: ["/build/_shared/chunk-DZO7EO6M.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/$": { id: "routes/$", parentId: "root", path: "*", index: void 0, caseSensitive: void 0, module: "/build/routes/$-4ZLL2QRP.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-CUMARS5O.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/careers": { id: "routes/careers", parentId: "root", path: "careers", index: void 0, caseSensitive: void 0, module: "/build/routes/careers-WAAMPSU5.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact": { id: "routes/contact", parentId: "root", path: "contact", index: void 0, caseSensitive: void 0, module: "/build/routes/contact-ZO45CRTR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-DGLOAYFH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portfolio": { id: "routes/portfolio", parentId: "root", path: "portfolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portfolio-V75JOT2Z.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/request-a-quote": { id: "routes/request-a-quote", parentId: "root", path: "request-a-quote", index: void 0, caseSensitive: void 0, module: "/build/routes/request-a-quote-XIYNX27C.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/android-app-development": { id: "routes/service/android-app-development", parentId: "root", path: "service/android-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/android-app-development-2NQVBWOZ.js", imports: ["/build/_shared/chunk-SFRCWZDQ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/custom-web-development": { id: "routes/service/custom-web-development", parentId: "root", path: "service/custom-web-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/custom-web-development-7T26NOSR.js", imports: ["/build/_shared/chunk-SFRCWZDQ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/desktop-app-development": { id: "routes/service/desktop-app-development", parentId: "root", path: "service/desktop-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/desktop-app-development-SKD3IDXJ.js", imports: ["/build/_shared/chunk-SFRCWZDQ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/index": { id: "routes/service/index", parentId: "root", path: "service", index: !0, caseSensitive: void 0, module: "/build/routes/service/index-OFXZYYUJ.js", imports: ["/build/_shared/chunk-SFRCWZDQ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/iphone-app-development": { id: "routes/service/iphone-app-development", parentId: "root", path: "service/iphone-app-development", index: void 0, caseSensitive: void 0, module: "/build/routes/service/iphone-app-development-KQOMUJFF.js", imports: ["/build/_shared/chunk-SFRCWZDQ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-4C183E93.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

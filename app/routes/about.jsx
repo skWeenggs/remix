@@ -12,8 +12,8 @@ const About = () => {
         
         <section class='lg:h-[320px]  lg:max-w-[990px] block m-auto'>
           <div class='lg:h-[320px] m-auto flex text-center flex-col justify-center'>
-            <h1 class='text-1xl pt-10 lg:text-5xl md:text-5xl  text-center font-weight: 400 text-[#ffffff] z-30'>About Us</h1>
-            <div class='text-center mb-10 font-sm lg:text-xs  uppercase text-[#a5a5a5]  m-5' style={{letterSpacing:'5px'}}>
+            <h1 class='text-1xl pt-10 lg:text-4xl md:text-4xl 2xl:text-5xl text-center font-weight: 400 text-[#ffffff] z-30'>About Us</h1>
+            <div class='text-center mb-10 font-sm lg:text-xs 2xl:text-2xl uppercase text-[#a5a5a5]  m-5' style={{letterSpacing:'5px'}}>
             WE + ENNGGS
             </div>
            
@@ -27,9 +27,9 @@ const About = () => {
          <div class='w-full md:flex lg:flex  p-5'>
           <div class='lg:pt-20  lg:w-3/6 md:w-3/6 py-10  w-full'>
          
-           <h1 class='text-[black] m-5 text-center lg:text-5xl text-2xl font-weight: 400 mb-5'>Who are Weenggs?</h1>
+           <h1 class='text-[black] m-5  lg:text-4xl text-2xl 2xl:text-5xl font-weight: 400 text-start mb-5'>Who are Weenggs?</h1>
         
-           <ul class='py-5 text-sm m-5 '>
+           <ul class='py-5 text-sm 2xl:text-lg m-5 '>
              
              <h6 class='m-auto text-md text-gray-500'>The word Weenggs is a portmanteau- it is derived from combining We and Engineers and is pronounced as Wings!</h6>
              <h6 class='m-auto text-md my-5 text-gray-500'>We + Engineers = Weenggs</h6>
@@ -54,8 +54,8 @@ const About = () => {
          
         {data1.map((item,ind)=>{return(
                 <div key={ind} class='m-auto flex text-center flex-col justify-center'>
-                  <h1 class='text-2xl pt-10 md:text-3xl  text-center font-weight:400 text-[#000] z-30'>{item.name}</h1>
-                  <div class='text-center mb-10  text-sm   text-[#a5a5a5]-400  m-10' >{item.desc} </div>
+                  <h1 class='text-2xl pt-10 md:text-3xl 2xl:text-xl  text-center font-weight:400 text-[#000] z-30'>{item.name}</h1>
+                  <div class='text-center mb-10  text-sm   text-[#a5a5a5]-400 2xl:text-lg m-10' >{item.desc} </div>
                 </div>
                )})}
         </section>
@@ -77,11 +77,11 @@ const About = () => {
                   <div class='flex justify-center border-gray-300 w-20 text-center m-auto  border-[1px] rounded-[60%] bg-green-200'>
                         <i class={item.logo} style={{fontSize:'40px'}}  > </i>
                   </div>
-                    <h1 class='text-center p-5 font-medium '>{item.head}</h1>
-                    <p class='text-[#999999] p-5 text-sm lg:text-md text-center'>
+                    <h1 class='text-center p-5 font-medium  2xl:text-xl'>{item.head}</h1>
+                    <p class='text-[#999999] p-5 text-sm  lg:text-md text-center 2xl:text-lg'>
                       {item.desc}
                     </p>
-                    <button class="bg-red-700 mt-10  hrover:bg-green m-auto flex font-semibold text-white text-sm align-center uppercase py-3 px-6 rounded-full">
+                    <button class="bg-red-700 mt-10  hrover:bg-green m-auto flex 2xl:text-xl font-semibold text-white text-sm align-center uppercase py-3 px-6 rounded-full">
                     <a href={item.path && item.path}> {item.btn}  </a>
                   </button>
                   </div>
